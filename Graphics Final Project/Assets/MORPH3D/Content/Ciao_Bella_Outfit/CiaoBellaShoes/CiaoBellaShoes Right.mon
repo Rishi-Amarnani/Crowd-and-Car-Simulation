@@ -1,0 +1,393 @@
+{
+  "schematics": [
+    {
+      "origin_and_description": {
+        "mcs_id": "c547fb17-7802-40ba-8c29-ef8f3665c39c",
+        "name": "CiaoBellaShoes_Right",
+        "vendor_id": "2e4ddbf3-b4fd-11e6-ab9c-000f1f047949",
+        "vendor_name": "MORPH3D",
+        "collection_id": null,
+        "collection_name": "Ciao_Bella_Outfit",
+        "parent_id": null,
+        "child_count": 0,
+        "gender": 0,
+        "category": 0,
+        "tags": null,
+        "description": null
+      },
+      "stream_and_path": {
+        "image_thumbnail": null,
+        "interactive_thumbnail": null,
+        "url": null,
+        "root_path": null,
+        "source_path": "CiaoBellaShoes Right",
+        "generated_path": null
+      },
+      "version_and_control": {
+        "mcs_version": 1.6,
+        "mcs_revision": 0.0,
+        "collection_version": 0.0,
+        "item_version": 1.0,
+        "compatibilities": [
+          "Genesis 2 Female"
+        ]
+      },
+      "structure_and_physics": {
+        "item_structure": {
+          "lods": null,
+          "persistent": null,
+          "cap": null,
+          "assigned_materials": null,
+          "alpha_masks": [
+            "./AlphaInjection/M3DFemale_LOD0-CiaoBellaShoes_31740_right_LOD0-Body_LOD0-occlusion.png"
+          ],
+          "alpha_masks_key": [
+            "BODY"
+          ],
+          "morph_resouces": null
+        },
+        "material_structure": {
+          "shader": null,
+          "albedo": null,
+          "albedo_tint": null,
+          "metal": null,
+          "specular": null,
+          "smoothness_channel": null,
+          "smoothness_value": 0.0,
+          "normal": null,
+          "normal_value": 0.0,
+          "detail_normal": null,
+          "detail_normal_value": 0.0,
+          "height": null,
+          "transparency": null,
+          "transparency_mode": null,
+          "transparency_value": 0.0,
+          "emission": null,
+          "emission_value": null,
+          "emission_color": null,
+          "global_illumination": null,
+          "detail": null,
+          "tile_x": 0.0,
+          "tile_y": 0.0,
+          "offset_x": 0.0,
+          "offset_y": 0.0,
+          "tint": null,
+          "shader_keywords": null,
+          "shader_tags": null,
+          "shader_properties": null,
+          "render_queue": -2,
+          "textures": null
+        },
+        "morph_structure": {
+          "lodMorphObjectNames": null,
+          "lodMorphLocations": null
+        }
+      },
+      "type_and_function": {
+        "primary_function": 0,
+        "hierarchy_rank": 2,
+        "artisttools_function": 1,
+        "item_function": 4,
+        "material_function": 0,
+        "morph_function": 0,
+        "animation_function": 0
+      }
+    },
+    {
+      "origin_and_description": null,
+      "stream_and_path": {
+        "image_thumbnail": null,
+        "interactive_thumbnail": null,
+        "url": null,
+        "root_path": null,
+        "source_path": "CiaoBellaShoes Right/CiaoBellaShoes_31740_right_LOD_0/CiaoBellaShoes_31740_right_LOD0",
+        "generated_path": null
+      },
+      "version_and_control": null,
+      "structure_and_physics": {
+        "item_structure": {
+          "lods": null,
+          "persistent": null,
+          "cap": null,
+          "assigned_materials": [
+            "7e4e4110-056d-4ee4-b958-c87803a2db31"
+          ],
+          "alpha_masks": [
+            "./AlphaInjection/M3DFemale_LOD0-CiaoBellaShoes_31740_right_LOD0-Body_LOD0-occlusion.png"
+          ],
+          "alpha_masks_key": [
+            "BODY"
+          ],
+          "morph_resouces": null
+        },
+        "material_structure": {
+          "shader": null,
+          "albedo": null,
+          "albedo_tint": null,
+          "metal": null,
+          "specular": null,
+          "smoothness_channel": null,
+          "smoothness_value": 0.0,
+          "normal": null,
+          "normal_value": 0.0,
+          "detail_normal": null,
+          "detail_normal_value": 0.0,
+          "height": null,
+          "transparency": null,
+          "transparency_mode": null,
+          "transparency_value": 0.0,
+          "emission": null,
+          "emission_value": null,
+          "emission_color": null,
+          "global_illumination": null,
+          "detail": null,
+          "tile_x": 0.0,
+          "tile_y": 0.0,
+          "offset_x": 0.0,
+          "offset_y": 0.0,
+          "tint": null,
+          "shader_keywords": null,
+          "shader_tags": null,
+          "shader_properties": null,
+          "render_queue": -2,
+          "textures": null
+        },
+        "morph_structure": {
+          "lodMorphObjectNames": null,
+          "lodMorphLocations": null
+        }
+      },
+      "type_and_function": {
+        "primary_function": 0,
+        "hierarchy_rank": 3,
+        "artisttools_function": 3,
+        "item_function": 4,
+        "material_function": 0,
+        "morph_function": 0,
+        "animation_function": 0
+      }
+    },
+    {
+      "origin_and_description": null,
+      "stream_and_path": {
+        "image_thumbnail": null,
+        "interactive_thumbnail": null,
+        "url": null,
+        "root_path": null,
+        "source_path": "CiaoBellaShoes Right/CiaoBellaShoes_31740_right_LOD_1/CiaoBellaShoes_31740_right_LOD1",
+        "generated_path": null
+      },
+      "version_and_control": null,
+      "structure_and_physics": {
+        "item_structure": {
+          "lods": null,
+          "persistent": null,
+          "cap": null,
+          "assigned_materials": [
+            "7e4e4110-056d-4ee4-b958-c87803a2db31"
+          ],
+          "alpha_masks": [
+            "./AlphaInjection/M3DFemale_LOD1-CiaoBellaShoes_31740_right_LOD1-Body_LOD1-occlusion.png"
+          ],
+          "alpha_masks_key": [
+            "BODY"
+          ],
+          "morph_resouces": null
+        },
+        "material_structure": {
+          "shader": null,
+          "albedo": null,
+          "albedo_tint": null,
+          "metal": null,
+          "specular": null,
+          "smoothness_channel": null,
+          "smoothness_value": 0.0,
+          "normal": null,
+          "normal_value": 0.0,
+          "detail_normal": null,
+          "detail_normal_value": 0.0,
+          "height": null,
+          "transparency": null,
+          "transparency_mode": null,
+          "transparency_value": 0.0,
+          "emission": null,
+          "emission_value": null,
+          "emission_color": null,
+          "global_illumination": null,
+          "detail": null,
+          "tile_x": 0.0,
+          "tile_y": 0.0,
+          "offset_x": 0.0,
+          "offset_y": 0.0,
+          "tint": null,
+          "shader_keywords": null,
+          "shader_tags": null,
+          "shader_properties": null,
+          "render_queue": -2,
+          "textures": null
+        },
+        "morph_structure": {
+          "lodMorphObjectNames": null,
+          "lodMorphLocations": null
+        }
+      },
+      "type_and_function": {
+        "primary_function": 0,
+        "hierarchy_rank": 3,
+        "artisttools_function": 3,
+        "item_function": 4,
+        "material_function": 0,
+        "morph_function": 0,
+        "animation_function": 0
+      }
+    },
+    {
+      "origin_and_description": null,
+      "stream_and_path": {
+        "image_thumbnail": null,
+        "interactive_thumbnail": null,
+        "url": null,
+        "root_path": null,
+        "source_path": "CiaoBellaShoes Right/CiaoBellaShoes_31740_right_LOD_2/CiaoBellaShoes_31740_right_LOD2",
+        "generated_path": null
+      },
+      "version_and_control": null,
+      "structure_and_physics": {
+        "item_structure": {
+          "lods": null,
+          "persistent": null,
+          "cap": null,
+          "assigned_materials": [
+            "7e4e4110-056d-4ee4-b958-c87803a2db31"
+          ],
+          "alpha_masks": [
+            "./AlphaInjection/M3DFemale_LOD2-CiaoBellaShoes_31740_right_LOD2-Body_LOD2-occlusion.png"
+          ],
+          "alpha_masks_key": [
+            "BODY"
+          ],
+          "morph_resouces": null
+        },
+        "material_structure": {
+          "shader": null,
+          "albedo": null,
+          "albedo_tint": null,
+          "metal": null,
+          "specular": null,
+          "smoothness_channel": null,
+          "smoothness_value": 0.0,
+          "normal": null,
+          "normal_value": 0.0,
+          "detail_normal": null,
+          "detail_normal_value": 0.0,
+          "height": null,
+          "transparency": null,
+          "transparency_mode": null,
+          "transparency_value": 0.0,
+          "emission": null,
+          "emission_value": null,
+          "emission_color": null,
+          "global_illumination": null,
+          "detail": null,
+          "tile_x": 0.0,
+          "tile_y": 0.0,
+          "offset_x": 0.0,
+          "offset_y": 0.0,
+          "tint": null,
+          "shader_keywords": null,
+          "shader_tags": null,
+          "shader_properties": null,
+          "render_queue": -2,
+          "textures": null
+        },
+        "morph_structure": {
+          "lodMorphObjectNames": null,
+          "lodMorphLocations": null
+        }
+      },
+      "type_and_function": {
+        "primary_function": 0,
+        "hierarchy_rank": 3,
+        "artisttools_function": 3,
+        "item_function": 4,
+        "material_function": 0,
+        "morph_function": 0,
+        "animation_function": 0
+      }
+    },
+    {
+      "origin_and_description": null,
+      "stream_and_path": {
+        "image_thumbnail": null,
+        "interactive_thumbnail": null,
+        "url": null,
+        "root_path": null,
+        "source_path": "CiaoBellaShoes Right/CiaoBellaShoes_31740_right_LOD_3/CiaoBellaShoes_31740_right_LOD3",
+        "generated_path": null
+      },
+      "version_and_control": null,
+      "structure_and_physics": {
+        "item_structure": {
+          "lods": null,
+          "persistent": null,
+          "cap": null,
+          "assigned_materials": [
+            "7e4e4110-056d-4ee4-b958-c87803a2db31"
+          ],
+          "alpha_masks": [
+            "./AlphaInjection/M3DFemale_LOD3-CiaoBellaShoes_31740_right_LOD3-Body_LOD3-occlusion.png"
+          ],
+          "alpha_masks_key": [
+            "BODY"
+          ],
+          "morph_resouces": null
+        },
+        "material_structure": {
+          "shader": null,
+          "albedo": null,
+          "albedo_tint": null,
+          "metal": null,
+          "specular": null,
+          "smoothness_channel": null,
+          "smoothness_value": 0.0,
+          "normal": null,
+          "normal_value": 0.0,
+          "detail_normal": null,
+          "detail_normal_value": 0.0,
+          "height": null,
+          "transparency": null,
+          "transparency_mode": null,
+          "transparency_value": 0.0,
+          "emission": null,
+          "emission_value": null,
+          "emission_color": null,
+          "global_illumination": null,
+          "detail": null,
+          "tile_x": 0.0,
+          "tile_y": 0.0,
+          "offset_x": 0.0,
+          "offset_y": 0.0,
+          "tint": null,
+          "shader_keywords": null,
+          "shader_tags": null,
+          "shader_properties": null,
+          "render_queue": -2,
+          "textures": null
+        },
+        "morph_structure": {
+          "lodMorphObjectNames": null,
+          "lodMorphLocations": null
+        }
+      },
+      "type_and_function": {
+        "primary_function": 0,
+        "hierarchy_rank": 3,
+        "artisttools_function": 3,
+        "item_function": 4,
+        "material_function": 0,
+        "morph_function": 0,
+        "animation_function": 0
+      }
+    }
+  ]
+}

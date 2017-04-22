@@ -1,0 +1,122 @@
+{
+  "origin_and_description": {
+    "mcs_id": "e515f87a-3dce-422d-9738-c2f4c214d950",
+    "name": "Head",
+    "vendor_id": "2e4ddbf3-b4fd-11e6-ab9c-000f1f047949",
+    "vendor_name": "MORPH3D",
+    "collection_id": null,
+    "collection_name": null,
+    "parent_id": null,
+    "child_count": 0,
+    "gender": 0,
+    "category": 0,
+    "tags": null,
+    "description": null
+  },
+  "stream_and_path": {
+    "image_thumbnail": null,
+    "interactive_thumbnail": null,
+    "url": null,
+    "root_path": null,
+    "source_path": null,
+    "generated_path": "./Head.mat"
+  },
+  "version_and_control": {
+    "mcs_version": 1.6,
+    "mcs_revision": 0.0,
+    "collection_version": 0.0,
+    "item_version": 1.0,
+    "compatibilities": null
+  },
+  "structure_and_physics": {
+    "item_structure": {
+      "lods": null,
+      "persistent": null,
+      "cap": null,
+      "assigned_materials": null,
+      "alpha_masks": null,
+      "alpha_masks_key": null,
+      "overlay_texture": null,
+      "overlay_color": null,
+      "morph_resouces": null
+    },
+    "material_structure": {
+      "shader": "Morph3D/Volund Variants/Standard Character (Specular, Surface)",
+      "albedo": "./Textures/albedoHead.png",
+      "albedo_tint": "255,255,255,255",
+      "metal": null,
+      "specular": "./Textures/metalHead.png",
+      "smoothness_channel": null,
+      "metallic_value": 0.0,
+      "smoothness_value": 0.0,
+      "normal": "./Textures/normalHead.png",
+      "normal_value": 0.0,
+      "detail_normal": null,
+      "detail_normal_value": 0.0,
+      "height": null,
+      "transparency": null,
+      "transparency_mode": null,
+      "transparency_value": 0.0,
+      "emission": null,
+      "emission_value": null,
+      "emission_color": "0,0,0,255",
+      "global_illumination": null,
+      "detail": null,
+      "tile_x": 1.0,
+      "tile_y": 1.0,
+      "offset_x": 0.0,
+      "offset_y": 0.0,
+      "tint": null,
+      "shader_keywords": [
+        "_ALPHATEST_ON",
+        "_NORMALMAP",
+        "_SPECGLOSSMAP"
+      ],
+      "shader_tags": [
+        "RenderType=TransparentCutout",
+        "Queue=Transparent"
+      ],
+      "shader_properties": [
+        "color:_Color=255,255,255,255",
+        "float:_Cutoff=0.5",
+        "float:_Glossiness=0.5",
+        "color:_SpecColor=51,51,51,255",
+        "float:_BumpScale=1",
+        "float:_Parallax=0.02",
+        "float:_OcclusionStrength=1",
+        "color:_EmissionColor=0,0,0,255",
+        "float:_DetailNormalMapScale=1",
+        "color:_OverlayColor=0,0,0,0",
+        "float:_UVSec=0",
+        "float:_EmissionScaleUI=0",
+        "color:_EmissionColorUI=255,255,255,255",
+        "float:_Mode=1",
+        "float:_SrcBlend=1",
+        "float:_DstBlend=0",
+        "float:_ZWrite=1",
+        "float:_CullMode=2",
+        "float:_SmoothnessInAlbedo=0",
+        "float:_SmoothnessTweak1=1",
+        "float:_SmoothnessTweak2=0",
+        "color:_SpecularMapColorTweak=255,255,255,255",
+        "float:_PlaneReflectionBumpScale=0.4",
+        "float:_PlaneReflectionBumpClamp=0.05"
+      ],
+      "render_queue": 2450,
+      "textures": null
+    },
+    "morph_structure": {
+      "lodMorphObjectNames": null,
+      "lodMorphLocations": null
+    }
+  },
+  "type_and_function": {
+    "primary_function": 2,
+    "hierarchy_rank": 0,
+    "artisttools_function": 0,
+    "item_function": 0,
+    "material_function": 0,
+    "morph_function": 0,
+    "animation_function": 0
+  }
+}

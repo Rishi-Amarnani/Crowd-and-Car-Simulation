@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: c3db2d91055ed2842ac6de4f341f8f8b
+timeCreated: 1484960387
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: abdomenLower
+    100002: abdomenLower 1
+    100004: abdomenLower 2
+    100006: abdomenLower 3
+    100008: abdomenLower 4
+    100010: hip
+    100012: hip 1
+    100014: hip 2
+    100016: hip 3
+    100018: hip 4
+    100020: lBigToe
+    100022: lBigToe 1
+    100024: lBigToe 2
+    100026: lBigToe 3
+    100028: lBigToe 4
+    100030: lFoot
+    100032: lFoot 1
+    100034: lFoot 2
+    100036: lFoot 3
+    100038: lFoot 4
+    100040: lHeel
+    100042: lHeel 1
+    100044: lHeel 2
+    100046: lHeel 3
+    100048: lHeel 4
+    100050: lMetatarsals
+    100052: lMetatarsals 1
+    100054: lMetatarsals 2
+    100056: lMetatarsals 3
+    100058: lMetatarsals 4
+    100060: lShin
+    100062: lShin 1
+    100064: lShin 2
+    100066: lShin 3
+    100068: lShin 4
+    100070: lSmallToe1
+    100072: lSmallToe1 1
+    100074: lSmallToe1 2
+    100076: lSmallToe1 3
+    100078: lSmallToe1 4
+    100080: lSmallToe2
+    100082: lSmallToe2 1
+    100084: lSmallToe2 2
+    100086: lSmallToe2 3
+    100088: lSmallToe2 4
+    100090: lSmallToe3
+    100092: lSmallToe3 1
+    100094: lSmallToe3 2
+    100096: lSmallToe3 3
+    100098: lSmallToe3 4
+    100100: lSmallToe4
+    100102: lSmallToe4 1
+    100104: lSmallToe4 2
+    100106: lSmallToe4 3
+    100108: lSmallToe4 4
+    100110: lThighBend
+    100112: lThighBend 1
+    100114: lThighBend 2
+    100116: lThighBend 3
+    100118: lThighBend 4
+    100120: lThighTwist
+    100122: lThighTwist 1
+    100124: lThighTwist 2
+    100126: lThighTwist 3
+    100128: lThighTwist 4
+    100130: lToe
+    100132: lToe 1
+    100134: lToe 2
+    100136: lToe 3
+    100138: lToe 4
+    100140: M3DMale
+    100142: pelvis
+    100144: pelvis 1
+    100146: pelvis 2
+    100148: pelvis 3
+    100150: pelvis 4
+    100152: rBigToe
+    100154: rBigToe 1
+    100156: rBigToe 2
+    100158: rBigToe 3
+    100160: rBigToe 4
+    100162: rFoot
+    100164: rFoot 1
+    100166: rFoot 2
+    100168: rFoot 3
+    100170: rFoot 4
+    100172: rHeel
+    100174: rHeel 1
+    100176: rHeel 2
+    100178: rHeel 3
+    100180: rHeel 4
+    100182: rMetatarsals
+    100184: rMetatarsals 1
+    100186: rMetatarsals 2
+    100188: rMetatarsals 3
+    100190: rMetatarsals 4
+    100192: rShin
+    100194: rShin 1
+    100196: rShin 2
+    100198: rShin 3
+    100200: rShin 4
+    100202: rSmallToe1
+    100204: rSmallToe1 1
+    100206: rSmallToe1 2
+    100208: rSmallToe1 3
+    100210: rSmallToe1 4
+    100212: rSmallToe2
+    100214: rSmallToe2 1
+    100216: rSmallToe2 2
+    100218: rSmallToe2 3
+    100220: rSmallToe2 4
+    100222: rSmallToe3
+    100224: rSmallToe3 1
+    100226: rSmallToe3 2
+    100228: rSmallToe3 3
+    100230: rSmallToe3 4
+    100232: rSmallToe4
+    100234: rSmallToe4 1
+    100236: rSmallToe4 2
+    100238: rSmallToe4 3
+    100240: rSmallToe4 4
+    100242: rThighBend
+    100244: rThighBend 1
+    100246: rThighBend 2
+    100248: rThighBend 3
+    100250: rThighBend 4
+    100252: rThighTwist
+    100254: rThighTwist 1
+    100256: rThighTwist 2
+    100258: rThighTwist 3
+    100260: rThighTwist 4
+    100262: rToe
+    100264: rToe 1
+    100266: rToe 2
+    100268: rToe 3
+    100270: rToe 4
+    100272: umshoes_10946_right
+    100274: umshoes_10946_right_LOD0
+    100276: umshoes_10946_right_LOD1
+    100278: umshoes_10946_right_LOD2
+    100280: umshoes_10946_right_LOD3
+    100282: umshoes_10946_right_LOD_0
+    100284: umshoes_10946_right_LOD_1
+    100286: umshoes_10946_right_LOD_2
+    100288: umshoes_10946_right_LOD_3
+    100290: //RootNode
+    400000: abdomenLower
+    400002: abdomenLower 1
+    400004: abdomenLower 2
+    400006: abdomenLower 3
+    400008: abdomenLower 4
+    400010: hip
+    400012: hip 1
+    400014: hip 2
+    400016: hip 3
+    400018: hip 4
+    400020: lBigToe
+    400022: lBigToe 1
+    400024: lBigToe 2
+    400026: lBigToe 3
+    400028: lBigToe 4
+    400030: lFoot
+    400032: lFoot 1
+    400034: lFoot 2
+    400036: lFoot 3
+    400038: lFoot 4
+    400040: lHeel
+    400042: lHeel 1
+    400044: lHeel 2
+    400046: lHeel 3
+    400048: lHeel 4
+    400050: lMetatarsals
+    400052: lMetatarsals 1
+    400054: lMetatarsals 2
+    400056: lMetatarsals 3
+    400058: lMetatarsals 4
+    400060: lShin
+    400062: lShin 1
+    400064: lShin 2
+    400066: lShin 3
+    400068: lShin 4
+    400070: lSmallToe1
+    400072: lSmallToe1 1
+    400074: lSmallToe1 2
+    400076: lSmallToe1 3
+    400078: lSmallToe1 4
+    400080: lSmallToe2
+    400082: lSmallToe2 1
+    400084: lSmallToe2 2
+    400086: lSmallToe2 3
+    400088: lSmallToe2 4
+    400090: lSmallToe3
+    400092: lSmallToe3 1
+    400094: lSmallToe3 2
+    400096: lSmallToe3 3
+    400098: lSmallToe3 4
+    400100: lSmallToe4
+    400102: lSmallToe4 1
+    400104: lSmallToe4 2
+    400106: lSmallToe4 3
+    400108: lSmallToe4 4
+    400110: lThighBend
+    400112: lThighBend 1
+    400114: lThighBend 2
+    400116: lThighBend 3
+    400118: lThighBend 4
+    400120: lThighTwist
+    400122: lThighTwist 1
+    400124: lThighTwist 2
+    400126: lThighTwist 3
+    400128: lThighTwist 4
+    400130: lToe
+    400132: lToe 1
+    400134: lToe 2
+    400136: lToe 3
+    400138: lToe 4
+    400140: M3DMale
+    400142: pelvis
+    400144: pelvis 1
+    400146: pelvis 2
+    400148: pelvis 3
+    400150: pelvis 4
+    400152: rBigToe
+    400154: rBigToe 1
+    400156: rBigToe 2
+    400158: rBigToe 3
+    400160: rBigToe 4
+    400162: rFoot
+    400164: rFoot 1
+    400166: rFoot 2
+    400168: rFoot 3
+    400170: rFoot 4
+    400172: rHeel
+    400174: rHeel 1
+    400176: rHeel 2
+    400178: rHeel 3
+    400180: rHeel 4
+    400182: rMetatarsals
+    400184: rMetatarsals 1
+    400186: rMetatarsals 2
+    400188: rMetatarsals 3
+    400190: rMetatarsals 4
+    400192: rShin
+    400194: rShin 1
+    400196: rShin 2
+    400198: rShin 3
+    400200: rShin 4
+    400202: rSmallToe1
+    400204: rSmallToe1 1
+    400206: rSmallToe1 2
+    400208: rSmallToe1 3
+    400210: rSmallToe1 4
+    400212: rSmallToe2
+    400214: rSmallToe2 1
+    400216: rSmallToe2 2
+    400218: rSmallToe2 3
+    400220: rSmallToe2 4
+    400222: rSmallToe3
+    400224: rSmallToe3 1
+    400226: rSmallToe3 2
+    400228: rSmallToe3 3
+    400230: rSmallToe3 4
+    400232: rSmallToe4
+    400234: rSmallToe4 1
+    400236: rSmallToe4 2
+    400238: rSmallToe4 3
+    400240: rSmallToe4 4
+    400242: rThighBend
+    400244: rThighBend 1
+    400246: rThighBend 2
+    400248: rThighBend 3
+    400250: rThighBend 4
+    400252: rThighTwist
+    400254: rThighTwist 1
+    400256: rThighTwist 2
+    400258: rThighTwist 3
+    400260: rThighTwist 4
+    400262: rToe
+    400264: rToe 1
+    400266: rToe 2
+    400268: rToe 3
+    400270: rToe 4
+    400272: umshoes_10946_right
+    400274: umshoes_10946_right_LOD0
+    400276: umshoes_10946_right_LOD1
+    400278: umshoes_10946_right_LOD2
+    400280: umshoes_10946_right_LOD3
+    400282: umshoes_10946_right_LOD_0
+    400284: umshoes_10946_right_LOD_1
+    400286: umshoes_10946_right_LOD_2
+    400288: umshoes_10946_right_LOD_3
+    400290: //RootNode
+    4300000: umshoes_10946_right_LOD0
+    4300002: umshoes_10946_right_LOD1
+    4300004: umshoes_10946_right_LOD2
+    4300006: umshoes_10946_right_LOD3
+    9500000: //RootNode
+    13700000: umshoes_10946_right_LOD0
+    13700002: umshoes_10946_right_LOD1
+    13700004: umshoes_10946_right_LOD2
+    13700006: umshoes_10946_right_LOD3
+    20500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.0625
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

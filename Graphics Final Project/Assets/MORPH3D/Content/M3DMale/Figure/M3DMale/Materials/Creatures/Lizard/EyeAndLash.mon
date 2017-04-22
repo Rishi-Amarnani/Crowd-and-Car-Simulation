@@ -1,0 +1,97 @@
+{
+  "origin_and_description": {
+    "mcs_id": "b2945d2b-5c81-4004-b4a2-366435cf5abd",
+    "name": "EyeAndLash",
+    "vendor_id": "2e4ddbf3-b4fd-11e6-ab9c-000f1f047949",
+    "vendor_name": "MORPH3D",
+    "collection_id": null,
+    "collection_name": null,
+    "parent_id": null,
+    "child_count": 0,
+    "gender": 0,
+    "category": 0,
+    "tags": null,
+    "description": null
+  },
+  "stream_and_path": {
+    "image_thumbnail": null,
+    "interactive_thumbnail": null,
+    "url": null,
+    "root_path": null,
+    "source_path": null,
+    "generated_path": "./EyeAndLash.mat"
+  },
+  "version_and_control": {
+    "mcs_version": 1.6,
+    "mcs_revision": 0.0,
+    "collection_version": 0.0,
+    "item_version": 1.0,
+    "compatibilities": null
+  },
+  "structure_and_physics": {
+    "item_structure": {
+      "lods": null,
+      "persistent": null,
+      "cap": null,
+      "assigned_materials": null,
+      "alpha_masks": null,
+      "alpha_masks_key": null,
+      "overlay_texture": null,
+      "overlay_color": null,
+      "morph_resouces": null
+    },
+    "material_structure": {
+      "shader": "Morph3D/EyeAndLash",
+      "albedo": "./Textures/albedoHead.png",
+      "albedo_tint": "255,255,255,255",
+      "metal": null,
+      "specular": null,
+      "smoothness_channel": null,
+      "metallic_value": 0.0,
+      "smoothness_value": 0.0,
+      "normal": null,
+      "normal_value": 0.0,
+      "detail_normal": null,
+      "detail_normal_value": 0.0,
+      "height": null,
+      "transparency": null,
+      "transparency_mode": null,
+      "transparency_value": 0.0,
+      "emission": null,
+      "emission_value": null,
+      "emission_color": "",
+      "global_illumination": null,
+      "detail": null,
+      "tile_x": 1.0,
+      "tile_y": 1.0,
+      "offset_x": 0.0,
+      "offset_y": 0.0,
+      "tint": null,
+      "shader_keywords": [],
+      "shader_tags": [
+        "RenderType=Transparent",
+        "Queue=Transparent",
+        "IgnoreProjector=true"
+      ],
+      "shader_properties": [
+        "color:_Color=255,255,255,255",
+        "float:_Spread=64"
+      ],
+      "render_queue": 3000,
+      "textures": null
+    },
+    "morph_structure": {
+      "lodMorphObjectNames": null,
+      "lodMorphLocations": null
+    }
+  },
+  "type_and_function": {
+    "primary_function": 2,
+    "hierarchy_rank": 0,
+    "artisttools_function": 0,
+    "item_function": 0,
+    "material_function": 0,
+    "morph_function": 0,
+    "animation_function": 0
+  }
+}

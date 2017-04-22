@@ -1,0 +1,83 @@
+{
+    "origin_and_description": {
+        "mcs_id": "6c4764e4-b165-4734-baee-19dbce2d34d3",
+        "name": "Body_LOD2",
+        "vendor_id": "2e4ddbf3-b4fd-11e6-ab9c-000f1f047949",
+        "vendor_name": "MORPH3D",
+        "collection_id": "",
+        "collection_name": "M3DMale",
+        "parent_id": "",
+        "child_count": 0,
+        "gender_enum": "male",
+        "gender": 2,
+        "category_enum": "modern",
+        "category": 3,
+        "tags": [],
+        "description": "Body Material for base M3DMale"
+    },
+    "stream_and_path": {
+        "image_thumbnail": "",
+        "interactive_thumbnail": "",
+        "url": "",
+        "root_path": "",
+        "source_path": "",
+        "generated_path": "./Body_LOD2.mat"
+    },
+    "version_and_control": {
+        "mcs_version": 1.6,
+        "mcs_revision": 0.0,
+        "collection_version": 1.6,
+        "item_version": 0.0,
+        "compatibilities": []
+    },
+    "structure_and_physics": {
+        "material_structure": {
+            "shader": "Morph3D/Volund Variants/Standard Character (Specular, Surface)",
+            "albedo": "./Textures/AL_M3DMale_Body_LOD0.png",
+            "albedo_tint": "",
+            "metal": "",
+            "specular": "./Textures/M_M3DMale_Body.png",
+            "smoothness_channel": "",
+            "smoothness_value": 0.0,
+            "normal": "./Textures/GN_M3DMale_Body_LOD2.png",
+			"normal_value": 1.0,
+			"detail_normal": "./Textures/DN_M3DMale_Body.png",
+			"detail_normal_value": 0.75,
+            "height": "",
+            "transparency": "",
+            "transparency_mode": "",
+            "transparency_value": 0.0,
+            "emission": "",
+            "emission_value": "0,0,0",
+            "emission_color": "",
+            "global_illumination": "",
+            "detail": "",
+            "tile_x": 0.0,
+            "tile_y": 0.0,
+            "offset_x": 0.0,
+            "offset_y": 0.0,
+            "tint": "192,192,192",
+            "textures": [],
+			"shader_keywords" : ["_ALPHATEST_ON"],
+			"shader_tags" : ["RenderType=TransparentCutout"],
+			"shader_properties" : ["int:_SrcBlend=1","int:_DstBlend=0","int:_ZWrite=1","float:_Mode=1"],
+			"render_queue": 2450
+        }
+    },
+    "type_and_function": {
+        "primary_function_enum": "material",
+        "primary_function": 2,
+        "hierarchy_rank_enum": "unknown",
+        "hierarchy_rank": 0,
+        "artisttools_function_enum": "unknown",
+        "artisttools_function": 0,
+        "item_function_enum": "unknown",
+        "item_function": 0,
+        "material_function_enum": "unknown",
+        "material_function": 0,
+        "morph_function_enum": "unknown",
+        "morph_function": 0,
+        "animation_function_enum": "unknown",
+        "animation_function": 0
+    }
+}

@@ -1,0 +1,129 @@
+fileFormatVersion: 2
+guid: 3ec3a1bf42cc9b14abc3ef29b93df481
+timeCreated: 1484960623
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: abdomenLower
+    100002: abdomenUpper
+    100004: hip
+    100006: lFoot
+    100008: lHeel
+    100010: lMetatarsals
+    100012: lShin
+    100014: lThighBend
+    100016: lThighTwist
+    100018: pelvis
+    100020: rFoot
+    100022: rHeel
+    100024: rMetatarsals
+    100026: rShin
+    100028: rThighBend
+    100030: rThighTwist
+    100032: umpants_23515
+    100034: umpants_23515_LOD0
+    100036: umpants_23515_LOD1
+    100038: umpants_23515_LOD2
+    100040: umpants_23515_LOD3
+    100042: //RootNode
+    400000: abdomenLower
+    400002: abdomenUpper
+    400004: hip
+    400006: lFoot
+    400008: lHeel
+    400010: lMetatarsals
+    400012: lShin
+    400014: lThighBend
+    400016: lThighTwist
+    400018: pelvis
+    400020: rFoot
+    400022: rHeel
+    400024: rMetatarsals
+    400026: rShin
+    400028: rThighBend
+    400030: rThighTwist
+    400032: umpants_23515
+    400034: umpants_23515_LOD0
+    400036: umpants_23515_LOD1
+    400038: umpants_23515_LOD2
+    400040: umpants_23515_LOD3
+    400042: //RootNode
+    4300000: umpants_23515_LOD0
+    4300002: umpants_23515_LOD1
+    4300004: umpants_23515_LOD2
+    4300006: umpants_23515_LOD3
+    9500000: //RootNode
+    13700000: umpants_23515_LOD0
+    13700002: umpants_23515_LOD1
+    13700004: umpants_23515_LOD2
+    13700006: umpants_23515_LOD3
+    20500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.0625
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

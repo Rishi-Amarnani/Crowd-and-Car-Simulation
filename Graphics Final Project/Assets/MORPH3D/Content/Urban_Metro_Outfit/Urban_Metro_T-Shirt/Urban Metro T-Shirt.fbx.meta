@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: 3afc060881086874fb4fd09f1e03d4a7
+timeCreated: 1484960876
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: abdomenLower
+    100002: abdomenUpper
+    100004: BelowJaw
+    100006: chestLower
+    100008: chestUpper
+    100010: Chin
+    100012: head
+    100014: hip
+    100016: lCheekLower
+    100018: lCollar
+    100020: lEar
+    100022: lEye
+    100024: lForearmBend
+    100026: lForearmTwist
+    100028: LipBelow
+    100030: LipLowerMiddle
+    100032: lJawClench
+    100034: lLipCorner
+    100036: lLipLowerInner
+    100038: lLipLowerOuter
+    100040: lNasolabialLower
+    100042: lNasolabialMouthCorner
+    100044: lowerFaceRig
+    100046: lowerJaw
+    100048: lowerTeeth
+    100050: lPectoral
+    100052: lShldrBend
+    100054: lShldrTwist
+    100056: lThighBend
+    100058: lThighTwist
+    100060: neckLower
+    100062: neckUpper
+    100064: pelvis
+    100066: rCheekLower
+    100068: rCollar
+    100070: rEar
+    100072: rEye
+    100074: rForearmBend
+    100076: rForearmTwist
+    100078: rJawClench
+    100080: rLipCorner
+    100082: rLipLowerInner
+    100084: rLipLowerOuter
+    100086: rNasolabialLower
+    100088: rNasolabialMouthCorner
+    100090: rPectoral
+    100092: rShldrBend
+    100094: rShldrTwist
+    100096: rThighBend
+    100098: rThighTwist
+    100100: umtee_26938
+    100102: umtee_26938_LOD0
+    100104: umtee_26938_LOD1
+    100106: umtee_26938_LOD2
+    100108: umtee_26938_LOD3
+    100110: upperFaceRig
+    100112: upperTeeth
+    100114: //RootNode
+    400000: abdomenLower
+    400002: abdomenUpper
+    400004: BelowJaw
+    400006: chestLower
+    400008: chestUpper
+    400010: Chin
+    400012: head
+    400014: hip
+    400016: lCheekLower
+    400018: lCollar
+    400020: lEar
+    400022: lEye
+    400024: lForearmBend
+    400026: lForearmTwist
+    400028: LipBelow
+    400030: LipLowerMiddle
+    400032: lJawClench
+    400034: lLipCorner
+    400036: lLipLowerInner
+    400038: lLipLowerOuter
+    400040: lNasolabialLower
+    400042: lNasolabialMouthCorner
+    400044: lowerFaceRig
+    400046: lowerJaw
+    400048: lowerTeeth
+    400050: lPectoral
+    400052: lShldrBend
+    400054: lShldrTwist
+    400056: lThighBend
+    400058: lThighTwist
+    400060: neckLower
+    400062: neckUpper
+    400064: pelvis
+    400066: rCheekLower
+    400068: rCollar
+    400070: rEar
+    400072: rEye
+    400074: rForearmBend
+    400076: rForearmTwist
+    400078: rJawClench
+    400080: rLipCorner
+    400082: rLipLowerInner
+    400084: rLipLowerOuter
+    400086: rNasolabialLower
+    400088: rNasolabialMouthCorner
+    400090: rPectoral
+    400092: rShldrBend
+    400094: rShldrTwist
+    400096: rThighBend
+    400098: rThighTwist
+    400100: umtee_26938
+    400102: umtee_26938_LOD0
+    400104: umtee_26938_LOD1
+    400106: umtee_26938_LOD2
+    400108: umtee_26938_LOD3
+    400110: upperFaceRig
+    400112: upperTeeth
+    400114: //RootNode
+    4300000: umtee_26938_LOD0
+    4300002: umtee_26938_LOD1
+    4300004: umtee_26938_LOD2
+    4300006: umtee_26938_LOD3
+    9500000: //RootNode
+    13700000: umtee_26938_LOD0
+    13700002: umtee_26938_LOD1
+    13700004: umtee_26938_LOD2
+    13700006: umtee_26938_LOD3
+    20500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.0625
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

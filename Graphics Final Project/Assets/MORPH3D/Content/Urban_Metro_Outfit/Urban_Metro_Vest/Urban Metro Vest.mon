@@ -1,0 +1,399 @@
+{
+  "schematics": [
+    {
+      "origin_and_description": {
+        "mcs_id": "7252f2a5-72fd-41a5-9ac6-64b2a9890995",
+        "name": "Urban_Metro_Vest",
+        "vendor_id": "2e4ddbf3-b4fd-11e6-ab9c-000f1f047949",
+        "vendor_name": "MORPH3D",
+        "collection_id": null,
+        "collection_name": "Urban_Metro_Outfit",
+        "parent_id": null,
+        "child_count": 0,
+        "gender": 0,
+        "category": 0,
+        "tags": null,
+        "description": null
+      },
+      "stream_and_path": {
+        "image_thumbnail": null,
+        "interactive_thumbnail": null,
+        "url": null,
+        "root_path": null,
+        "source_path": "Urban Metro Vest",
+        "generated_path": null
+      },
+      "version_and_control": {
+        "mcs_version": 1.6,
+        "mcs_revision": 0.0,
+        "collection_version": 0.0,
+        "item_version": 1.0,
+        "compatibilities": [
+          "Genesis 2 Male"
+        ]
+      },
+      "structure_and_physics": {
+        "item_structure": {
+          "lods": null,
+          "persistent": null,
+          "cap": null,
+          "assigned_materials": null,
+          "alpha_masks": [
+            "./AlphaInjection/M3DMale_LOD0-umvest_25655_LOD0-Body_LOD0-occlusion.png",
+            "./AlphaInjection/M3DMale_LOD0-umvest_25655_LOD0-Head_LOD0-occlusion.png"
+          ],
+          "alpha_masks_key": [
+            "BODY",
+            "HEAD"
+          ],
+          "morph_resouces": null
+        },
+        "material_structure": {
+          "shader": null,
+          "albedo": null,
+          "albedo_tint": null,
+          "metal": null,
+          "specular": null,
+          "smoothness_channel": null,
+          "smoothness_value": 0.0,
+          "normal": null,
+          "normal_value": 0.0,
+          "detail_normal": null,
+          "detail_normal_value": 0.0,
+          "height": null,
+          "transparency": null,
+          "transparency_mode": null,
+          "transparency_value": 0.0,
+          "emission": null,
+          "emission_value": null,
+          "emission_color": null,
+          "global_illumination": null,
+          "detail": null,
+          "tile_x": 0.0,
+          "tile_y": 0.0,
+          "offset_x": 0.0,
+          "offset_y": 0.0,
+          "tint": null,
+          "shader_keywords": null,
+          "shader_tags": null,
+          "shader_properties": null,
+          "render_queue": -2,
+          "textures": null
+        },
+        "morph_structure": {
+          "lodMorphObjectNames": null,
+          "lodMorphLocations": null
+        }
+      },
+      "type_and_function": {
+        "primary_function": 0,
+        "hierarchy_rank": 2,
+        "artisttools_function": 1,
+        "item_function": 4,
+        "material_function": 0,
+        "morph_function": 0,
+        "animation_function": 0
+      }
+    },
+    {
+      "origin_and_description": null,
+      "stream_and_path": {
+        "image_thumbnail": null,
+        "interactive_thumbnail": null,
+        "url": null,
+        "root_path": null,
+        "source_path": "Urban Metro Vest/umvest_25655/umvest_25655_LOD0",
+        "generated_path": null
+      },
+      "version_and_control": null,
+      "structure_and_physics": {
+        "item_structure": {
+          "lods": null,
+          "persistent": null,
+          "cap": null,
+          "assigned_materials": [
+            "c7bf0ce4-3ac7-4e2c-8db6-c2d39eeb39e7"
+          ],
+          "alpha_masks": [
+            "./AlphaInjection/M3DMale_LOD0-umvest_25655_LOD0-Body_LOD0-occlusion.png",
+            "./AlphaInjection/M3DMale_LOD0-umvest_25655_LOD0-Head_LOD0-occlusion.png"
+          ],
+          "alpha_masks_key": [
+            "BODY",
+            "HEAD"
+          ],
+          "morph_resouces": null
+        },
+        "material_structure": {
+          "shader": null,
+          "albedo": null,
+          "albedo_tint": null,
+          "metal": null,
+          "specular": null,
+          "smoothness_channel": null,
+          "smoothness_value": 0.0,
+          "normal": null,
+          "normal_value": 0.0,
+          "detail_normal": null,
+          "detail_normal_value": 0.0,
+          "height": null,
+          "transparency": null,
+          "transparency_mode": null,
+          "transparency_value": 0.0,
+          "emission": null,
+          "emission_value": null,
+          "emission_color": null,
+          "global_illumination": null,
+          "detail": null,
+          "tile_x": 0.0,
+          "tile_y": 0.0,
+          "offset_x": 0.0,
+          "offset_y": 0.0,
+          "tint": null,
+          "shader_keywords": null,
+          "shader_tags": null,
+          "shader_properties": null,
+          "render_queue": -2,
+          "textures": null
+        },
+        "morph_structure": {
+          "lodMorphObjectNames": null,
+          "lodMorphLocations": null
+        }
+      },
+      "type_and_function": {
+        "primary_function": 0,
+        "hierarchy_rank": 3,
+        "artisttools_function": 3,
+        "item_function": 4,
+        "material_function": 0,
+        "morph_function": 0,
+        "animation_function": 0
+      }
+    },
+    {
+      "origin_and_description": null,
+      "stream_and_path": {
+        "image_thumbnail": null,
+        "interactive_thumbnail": null,
+        "url": null,
+        "root_path": null,
+        "source_path": "Urban Metro Vest/umvest_25655/umvest_25655_LOD1",
+        "generated_path": null
+      },
+      "version_and_control": null,
+      "structure_and_physics": {
+        "item_structure": {
+          "lods": null,
+          "persistent": null,
+          "cap": null,
+          "assigned_materials": [
+            "c7bf0ce4-3ac7-4e2c-8db6-c2d39eeb39e7"
+          ],
+          "alpha_masks": [
+            "./AlphaInjection/M3DMale_LOD1-umvest_25655_LOD1-Body_LOD1-occlusion.png",
+            "./AlphaInjection/M3DMale_LOD1-umvest_25655_LOD1-Head_LOD1-occlusion.png"
+          ],
+          "alpha_masks_key": [
+            "BODY",
+            "HEAD"
+          ],
+          "morph_resouces": null
+        },
+        "material_structure": {
+          "shader": null,
+          "albedo": null,
+          "albedo_tint": null,
+          "metal": null,
+          "specular": null,
+          "smoothness_channel": null,
+          "smoothness_value": 0.0,
+          "normal": null,
+          "normal_value": 0.0,
+          "detail_normal": null,
+          "detail_normal_value": 0.0,
+          "height": null,
+          "transparency": null,
+          "transparency_mode": null,
+          "transparency_value": 0.0,
+          "emission": null,
+          "emission_value": null,
+          "emission_color": null,
+          "global_illumination": null,
+          "detail": null,
+          "tile_x": 0.0,
+          "tile_y": 0.0,
+          "offset_x": 0.0,
+          "offset_y": 0.0,
+          "tint": null,
+          "shader_keywords": null,
+          "shader_tags": null,
+          "shader_properties": null,
+          "render_queue": -2,
+          "textures": null
+        },
+        "morph_structure": {
+          "lodMorphObjectNames": null,
+          "lodMorphLocations": null
+        }
+      },
+      "type_and_function": {
+        "primary_function": 0,
+        "hierarchy_rank": 3,
+        "artisttools_function": 3,
+        "item_function": 4,
+        "material_function": 0,
+        "morph_function": 0,
+        "animation_function": 0
+      }
+    },
+    {
+      "origin_and_description": null,
+      "stream_and_path": {
+        "image_thumbnail": null,
+        "interactive_thumbnail": null,
+        "url": null,
+        "root_path": null,
+        "source_path": "Urban Metro Vest/umvest_25655/umvest_25655_LOD2",
+        "generated_path": null
+      },
+      "version_and_control": null,
+      "structure_and_physics": {
+        "item_structure": {
+          "lods": null,
+          "persistent": null,
+          "cap": null,
+          "assigned_materials": [
+            "c7bf0ce4-3ac7-4e2c-8db6-c2d39eeb39e7"
+          ],
+          "alpha_masks": [
+            "./AlphaInjection/M3DMale_LOD2-umvest_25655_LOD2-Body_LOD2-occlusion.png"
+          ],
+          "alpha_masks_key": [
+            "BODY"
+          ],
+          "morph_resouces": null
+        },
+        "material_structure": {
+          "shader": null,
+          "albedo": null,
+          "albedo_tint": null,
+          "metal": null,
+          "specular": null,
+          "smoothness_channel": null,
+          "smoothness_value": 0.0,
+          "normal": null,
+          "normal_value": 0.0,
+          "detail_normal": null,
+          "detail_normal_value": 0.0,
+          "height": null,
+          "transparency": null,
+          "transparency_mode": null,
+          "transparency_value": 0.0,
+          "emission": null,
+          "emission_value": null,
+          "emission_color": null,
+          "global_illumination": null,
+          "detail": null,
+          "tile_x": 0.0,
+          "tile_y": 0.0,
+          "offset_x": 0.0,
+          "offset_y": 0.0,
+          "tint": null,
+          "shader_keywords": null,
+          "shader_tags": null,
+          "shader_properties": null,
+          "render_queue": -2,
+          "textures": null
+        },
+        "morph_structure": {
+          "lodMorphObjectNames": null,
+          "lodMorphLocations": null
+        }
+      },
+      "type_and_function": {
+        "primary_function": 0,
+        "hierarchy_rank": 3,
+        "artisttools_function": 3,
+        "item_function": 4,
+        "material_function": 0,
+        "morph_function": 0,
+        "animation_function": 0
+      }
+    },
+    {
+      "origin_and_description": null,
+      "stream_and_path": {
+        "image_thumbnail": null,
+        "interactive_thumbnail": null,
+        "url": null,
+        "root_path": null,
+        "source_path": "Urban Metro Vest/umvest_25655/umvest_25655_LOD3",
+        "generated_path": null
+      },
+      "version_and_control": null,
+      "structure_and_physics": {
+        "item_structure": {
+          "lods": null,
+          "persistent": null,
+          "cap": null,
+          "assigned_materials": [
+            "c7bf0ce4-3ac7-4e2c-8db6-c2d39eeb39e7"
+          ],
+          "alpha_masks": [
+            "./AlphaInjection/M3DMale_LOD3-umvest_25655_LOD3-Body_LOD3-occlusion.png"
+          ],
+          "alpha_masks_key": [
+            "BODY"
+          ],
+          "morph_resouces": null
+        },
+        "material_structure": {
+          "shader": null,
+          "albedo": null,
+          "albedo_tint": null,
+          "metal": null,
+          "specular": null,
+          "smoothness_channel": null,
+          "smoothness_value": 0.0,
+          "normal": null,
+          "normal_value": 0.0,
+          "detail_normal": null,
+          "detail_normal_value": 0.0,
+          "height": null,
+          "transparency": null,
+          "transparency_mode": null,
+          "transparency_value": 0.0,
+          "emission": null,
+          "emission_value": null,
+          "emission_color": null,
+          "global_illumination": null,
+          "detail": null,
+          "tile_x": 0.0,
+          "tile_y": 0.0,
+          "offset_x": 0.0,
+          "offset_y": 0.0,
+          "tint": null,
+          "shader_keywords": null,
+          "shader_tags": null,
+          "shader_properties": null,
+          "render_queue": -2,
+          "textures": null
+        },
+        "morph_structure": {
+          "lodMorphObjectNames": null,
+          "lodMorphLocations": null
+        }
+      },
+      "type_and_function": {
+        "primary_function": 0,
+        "hierarchy_rank": 3,
+        "artisttools_function": 3,
+        "item_function": 4,
+        "material_function": 0,
+        "morph_function": 0,
+        "animation_function": 0
+      }
+    }
+  ]
+}

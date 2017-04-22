@@ -1,0 +1,373 @@
+{
+  "schematics": [
+    {
+      "origin_and_description": {
+        "mcs_id": "83104337-a587-46ec-913a-b7f3e42f31c5",
+        "name": "LH_9mmPistol",
+        "vendor_id": "2e4ddbf3-b4fd-11e6-ab9c-000f1f047949",
+        "vendor_name": "MORPH3D",
+        "collection_id": null,
+        "collection_name": "The_Firearm_Pack",
+        "parent_id": null,
+        "child_count": 0,
+        "gender": 0,
+        "category": 0,
+        "tags": null,
+        "description": null
+      },
+      "stream_and_path": {
+        "image_thumbnail": null,
+        "interactive_thumbnail": null,
+        "url": null,
+        "root_path": null,
+        "source_path": "LH_9mmPistol",
+        "generated_path": null
+      },
+      "version_and_control": {
+        "mcs_version": 1.6,
+        "mcs_revision": 0.0,
+        "collection_version": 0.0,
+        "item_version": 1.0,
+        "compatibilities": [
+          "Genesis 3 Female"
+        ]
+      },
+      "structure_and_physics": {
+        "item_structure": {
+          "lods": null,
+          "persistent": null,
+          "cap": null,
+          "assigned_materials": null,
+          "alpha_masks": [],
+          "alpha_masks_key": [],
+          "morph_resouces": null
+        },
+        "material_structure": {
+          "shader": null,
+          "albedo": null,
+          "albedo_tint": null,
+          "metal": null,
+          "specular": null,
+          "smoothness_channel": null,
+          "smoothness_value": 0.0,
+          "normal": null,
+          "normal_value": 0.0,
+          "detail_normal": null,
+          "detail_normal_value": 0.0,
+          "height": null,
+          "transparency": null,
+          "transparency_mode": null,
+          "transparency_value": 0.0,
+          "emission": null,
+          "emission_value": null,
+          "emission_color": null,
+          "global_illumination": null,
+          "detail": null,
+          "tile_x": 0.0,
+          "tile_y": 0.0,
+          "offset_x": 0.0,
+          "offset_y": 0.0,
+          "tint": null,
+          "shader_keywords": null,
+          "shader_tags": null,
+          "shader_properties": null,
+          "render_queue": -2,
+          "textures": null
+        },
+        "morph_structure": {
+          "lodMorphObjectNames": null,
+          "lodMorphLocations": null
+        }
+      },
+      "type_and_function": {
+        "primary_function": 0,
+        "hierarchy_rank": 2,
+        "artisttools_function": 1,
+        "item_function": 3,
+        "material_function": 0,
+        "morph_function": 0,
+        "animation_function": 0
+      }
+    },
+    {
+      "origin_and_description": null,
+      "stream_and_path": {
+        "image_thumbnail": null,
+        "interactive_thumbnail": null,
+        "url": null,
+        "root_path": null,
+        "source_path": "LH_9mmPistol/DZBGDALY9MM_38369_LOD0",
+        "generated_path": null
+      },
+      "version_and_control": null,
+      "structure_and_physics": {
+        "item_structure": {
+          "lods": null,
+          "persistent": null,
+          "cap": null,
+          "assigned_materials": [
+            "ec632223-e1e6-4f77-a44b-de0b83b03646"
+          ],
+          "alpha_masks": [],
+          "alpha_masks_key": [],
+          "morph_resouces": null
+        },
+        "material_structure": {
+          "shader": null,
+          "albedo": null,
+          "albedo_tint": null,
+          "metal": null,
+          "specular": null,
+          "smoothness_channel": null,
+          "smoothness_value": 0.0,
+          "normal": null,
+          "normal_value": 0.0,
+          "detail_normal": null,
+          "detail_normal_value": 0.0,
+          "height": null,
+          "transparency": null,
+          "transparency_mode": null,
+          "transparency_value": 0.0,
+          "emission": null,
+          "emission_value": null,
+          "emission_color": null,
+          "global_illumination": null,
+          "detail": null,
+          "tile_x": 0.0,
+          "tile_y": 0.0,
+          "offset_x": 0.0,
+          "offset_y": 0.0,
+          "tint": null,
+          "shader_keywords": null,
+          "shader_tags": null,
+          "shader_properties": null,
+          "render_queue": -2,
+          "textures": null
+        },
+        "morph_structure": {
+          "lodMorphObjectNames": null,
+          "lodMorphLocations": null
+        }
+      },
+      "type_and_function": {
+        "primary_function": 0,
+        "hierarchy_rank": 3,
+        "artisttools_function": 3,
+        "item_function": 3,
+        "material_function": 0,
+        "morph_function": 0,
+        "animation_function": 0
+      }
+    },
+    {
+      "origin_and_description": null,
+      "stream_and_path": {
+        "image_thumbnail": null,
+        "interactive_thumbnail": null,
+        "url": null,
+        "root_path": null,
+        "source_path": "LH_9mmPistol/DZBGDALY9MM_38369_LOD1",
+        "generated_path": null
+      },
+      "version_and_control": null,
+      "structure_and_physics": {
+        "item_structure": {
+          "lods": null,
+          "persistent": null,
+          "cap": null,
+          "assigned_materials": [
+            "ec632223-e1e6-4f77-a44b-de0b83b03646"
+          ],
+          "alpha_masks": [],
+          "alpha_masks_key": [],
+          "morph_resouces": null
+        },
+        "material_structure": {
+          "shader": null,
+          "albedo": null,
+          "albedo_tint": null,
+          "metal": null,
+          "specular": null,
+          "smoothness_channel": null,
+          "smoothness_value": 0.0,
+          "normal": null,
+          "normal_value": 0.0,
+          "detail_normal": null,
+          "detail_normal_value": 0.0,
+          "height": null,
+          "transparency": null,
+          "transparency_mode": null,
+          "transparency_value": 0.0,
+          "emission": null,
+          "emission_value": null,
+          "emission_color": null,
+          "global_illumination": null,
+          "detail": null,
+          "tile_x": 0.0,
+          "tile_y": 0.0,
+          "offset_x": 0.0,
+          "offset_y": 0.0,
+          "tint": null,
+          "shader_keywords": null,
+          "shader_tags": null,
+          "shader_properties": null,
+          "render_queue": -2,
+          "textures": null
+        },
+        "morph_structure": {
+          "lodMorphObjectNames": null,
+          "lodMorphLocations": null
+        }
+      },
+      "type_and_function": {
+        "primary_function": 0,
+        "hierarchy_rank": 3,
+        "artisttools_function": 3,
+        "item_function": 3,
+        "material_function": 0,
+        "morph_function": 0,
+        "animation_function": 0
+      }
+    },
+    {
+      "origin_and_description": null,
+      "stream_and_path": {
+        "image_thumbnail": null,
+        "interactive_thumbnail": null,
+        "url": null,
+        "root_path": null,
+        "source_path": "LH_9mmPistol/DZBGDALY9MM_38369_LOD2",
+        "generated_path": null
+      },
+      "version_and_control": null,
+      "structure_and_physics": {
+        "item_structure": {
+          "lods": null,
+          "persistent": null,
+          "cap": null,
+          "assigned_materials": [
+            "ec632223-e1e6-4f77-a44b-de0b83b03646"
+          ],
+          "alpha_masks": [],
+          "alpha_masks_key": [],
+          "morph_resouces": null
+        },
+        "material_structure": {
+          "shader": null,
+          "albedo": null,
+          "albedo_tint": null,
+          "metal": null,
+          "specular": null,
+          "smoothness_channel": null,
+          "smoothness_value": 0.0,
+          "normal": null,
+          "normal_value": 0.0,
+          "detail_normal": null,
+          "detail_normal_value": 0.0,
+          "height": null,
+          "transparency": null,
+          "transparency_mode": null,
+          "transparency_value": 0.0,
+          "emission": null,
+          "emission_value": null,
+          "emission_color": null,
+          "global_illumination": null,
+          "detail": null,
+          "tile_x": 0.0,
+          "tile_y": 0.0,
+          "offset_x": 0.0,
+          "offset_y": 0.0,
+          "tint": null,
+          "shader_keywords": null,
+          "shader_tags": null,
+          "shader_properties": null,
+          "render_queue": -2,
+          "textures": null
+        },
+        "morph_structure": {
+          "lodMorphObjectNames": null,
+          "lodMorphLocations": null
+        }
+      },
+      "type_and_function": {
+        "primary_function": 0,
+        "hierarchy_rank": 3,
+        "artisttools_function": 3,
+        "item_function": 3,
+        "material_function": 0,
+        "morph_function": 0,
+        "animation_function": 0
+      }
+    },
+    {
+      "origin_and_description": null,
+      "stream_and_path": {
+        "image_thumbnail": null,
+        "interactive_thumbnail": null,
+        "url": null,
+        "root_path": null,
+        "source_path": "LH_9mmPistol/DZBGDALY9MM_38369_LOD3",
+        "generated_path": null
+      },
+      "version_and_control": null,
+      "structure_and_physics": {
+        "item_structure": {
+          "lods": null,
+          "persistent": null,
+          "cap": null,
+          "assigned_materials": [
+            "ec632223-e1e6-4f77-a44b-de0b83b03646"
+          ],
+          "alpha_masks": [],
+          "alpha_masks_key": [],
+          "morph_resouces": null
+        },
+        "material_structure": {
+          "shader": null,
+          "albedo": null,
+          "albedo_tint": null,
+          "metal": null,
+          "specular": null,
+          "smoothness_channel": null,
+          "smoothness_value": 0.0,
+          "normal": null,
+          "normal_value": 0.0,
+          "detail_normal": null,
+          "detail_normal_value": 0.0,
+          "height": null,
+          "transparency": null,
+          "transparency_mode": null,
+          "transparency_value": 0.0,
+          "emission": null,
+          "emission_value": null,
+          "emission_color": null,
+          "global_illumination": null,
+          "detail": null,
+          "tile_x": 0.0,
+          "tile_y": 0.0,
+          "offset_x": 0.0,
+          "offset_y": 0.0,
+          "tint": null,
+          "shader_keywords": null,
+          "shader_tags": null,
+          "shader_properties": null,
+          "render_queue": -2,
+          "textures": null
+        },
+        "morph_structure": {
+          "lodMorphObjectNames": null,
+          "lodMorphLocations": null
+        }
+      },
+      "type_and_function": {
+        "primary_function": 0,
+        "hierarchy_rank": 3,
+        "artisttools_function": 3,
+        "item_function": 3,
+        "material_function": 0,
+        "morph_function": 0,
+        "animation_function": 0
+      }
+    }
+  ]
+}

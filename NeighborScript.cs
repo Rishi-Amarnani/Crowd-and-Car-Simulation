@@ -1,5 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿//using System.Collections;
+//using System.Collections.Generic;
 using UnityEngine;
 
 public class NeighborScript : MonoBehaviour {
@@ -13,6 +13,8 @@ public class NeighborScript : MonoBehaviour {
 //    private Terrain SWCP1;
     private Terrain SWCP2;
     private Terrain SWCP3;
+
+//    public ArrayList<GameObject> TerrainPositions;
 //    private Terrain SWCP4;
 
     //private Terrain PosXSWGuard;
@@ -49,10 +51,28 @@ public class NeighborScript : MonoBehaviour {
     */
     
     void Start () {
+        //TerrainPositions = new ArrayList<GameObject>();
+
         park = (Terrain) GetComponent("Park");
         PosXSW = (Terrain) GetComponent("PosXSW");
         PosZSW = (Terrain) GetComponent("PosZSW");
         NegZSW = (Terrain) GetComponent("NegZSW");
+
+/*
+        TerrainData parkdata = (TerrainData)Resources.Load("Terrain/Park");
+        GameObject ParkPosition = Terrain.CreateTerrainGameObject(parkdata);
+        TerrainData posxswdata = (TerrainData)Resources.Load("Terrain/PosXSW");
+        GameObject PosXSWPosition = Terrain.CreateTerrainGameObject(posxswdata);
+        TerrainData poszswdata = (TerrainData)Resources.Load("Terrain/PosZSW");
+        GameObject PosZSWPosition = Terrain.CreateTerrainGameObject(poszswdata);
+        TerrainData negzsw = (TerrainData)Resources.Load("Terrain/NegZSW");
+        GameObject NegZSWPosition = Terrain.CreateTerrainGameObject(negzsw);
+
+        TerrainPositions.Add(ParkPosition);
+        TerrainPositions.Add(PosXSWPosition);
+        TerrainPositions.Add(PosZSWPosition);
+        TerrainPositions.Add(NegZSWPosition);
+*/
 
         SWCP2 = (Terrain) GetComponent("SWCP2");
         SWCP3 = (Terrain) GetComponent("SWCP3");

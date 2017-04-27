@@ -21,6 +21,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private int updateFrequency;
         private int checkFrequency;
         private Vector3 position;
+        private int doStart;
+        private float makeNeg;
         bool moving;
 
         string previousTerrain;
@@ -47,7 +49,54 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             oldProgramCounter = -2;
             movement = Vector3.zero;
             UnityEngine.Random.InitState(42);
+            doStart = -1;
+            makeNeg = 1.0f;
         }
+
+
+        private string getTerrainTag(Vector3 position)
+        {
+            if(position.x < 18.5 && position.x > -316)
+            {
+                if(position.z <= 16 || position.z >= 363)
+                    return "flipZ";
+                else if(position.z >= -1 && position.z <= 349)
+                    return "Park";
+                else if(position.z <= -1 && position.z >= -18)
+                    return "NegZSW";
+                else if(position.z >= 349 && position.z <= 363)
+                    return "PosZSW";
+                return "";
+            }
+            else if (position.x <= -316)
+                return "flipX";
+            else if(position.x > 18.5 && position.x < 33)
+            {
+                if(position.z <= 16 || position.z >= 363)
+                    return "flipZ";
+                else if(position.z >= -1 && position.z <= 349)
+                    return "PosXSW";
+                else if(position.z <= -1 && position.z >= -18)
+                    return "SWCP2";
+                else if(position.z >= 349 && position.z <= 363)
+                    return "SWCP3";
+                return "";
+            }
+            else if(position.x >= 33)
+                return "flipX";
+            return "";
+        }
+
+        private void flipZ()
+        {
+            movement = new Vector3(movement.x, movement.y, movement.z * -1.0f);
+        }
+
+        private void flipX()
+        {
+            movement = new Vector3(movement.x * -1.0f, movement.y, movement.z);
+        }
+
 
         private void parkUpdate()
         {
@@ -75,65 +124,124 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
         private void PosXSWUpdate()
         {
+            if(doStart > 0)
+            {
+                character.Move2(new Vector3(UnityEngine.Random.RandomRange(0.05f, 0.2f) * makeNeg , 0.0f, UnityEngine.Random.RandomRange(0.5f, 1.0f) * makeNeg), false, false, rBody);
+                --doStart;
+                return;
+            }
+
             if(previousTerrain == "Park")
             {
-                int doStart = (int) UnityEngine.Random.RandomRange(5.0f, 10.0f);
-                for(int x = 0; x<doStart; ++x)
-                {
-                    float xStart = UnityEngine.Random.RandomRange(0.3f, 0.5f);
-                    character.Move2(new Vector3(xStart, 0.0f, movement.z), false, false, rBody);
-                }
+                makeNeg = movement.z/Math.Abs(movement.z);
+                if(makeNeg == 0)
+                    makeNeg = 1.0f;
 
+                doStart = (int) UnityEngine.Random.RandomRange(3.0f, 10.0f);
                 recordNewTerrain("PosXSW");
-                float xOffset = UnityEngine.Random.RandomRange(0.0f, 0.3f);
-                float zOffset = UnityEngine.Random.RandomRange(0.2f, 0.8f);
-                movement = new Vector3(xOffset, 0.0f, zOffset);
-                oldProgramCounter = programCounter;
             }
+
             else if(previousTerrain == "PosXSW" && programCounter == oldProgramCounter + 1)
             {
-                float xOffset = UnityEngine.Random.RandomRange(-0.05f, 0.0f);
-                float zOffset = UnityEngine.Random.RandomRange(0.2f, 0.8f);
+                float xOffset = UnityEngine.Random.RandomRange(-0.05f, 0.0f) * makeNeg;
+                float zOffset = UnityEngine.Random.RandomRange(0.2f, 0.8f) * makeNeg;
                 movement = new Vector3(xOffset, 0.0f, zOffset);
             }
             else
             {
-                float xOffset = UnityEngine.Random.RandomRange(0.0f, 0.05f);
-                float zOffset = UnityEngine.Random.RandomRange(0.2f, 0.8f);
+                float xOffset = UnityEngine.Random.RandomRange(0.0f, 0.05f) * makeNeg;
+                float zOffset = UnityEngine.Random.RandomRange(0.2f, 0.8f) * makeNeg;
                 movement = new Vector3(xOffset, 0.0f, zOffset);
                 oldProgramCounter = programCounter;                
             }
         }
+
+
         private void PosZSWUpdate()
         {
+            if(doStart > 0)
+            {
+                character.Move2(new Vector3(UnityEngine.Random.RandomRange(0.05f, 0.2f) * makeNeg , 0.0f, UnityEngine.Random.RandomRange(0.5f, 1.0f) * makeNeg), false, false, rBody);
+                --doStart;
+                return;
+            }
+
             if(previousTerrain == "Park")
             {
-                character.Move2(new Vector3(0.0f, 0.0f, 0.1f), false, false, rBody);
+                makeNeg = movement.x/Math.Abs(movement.x) * -1.0f;
+                if(makeNeg == 0)
+                    makeNeg = -1.0f;
+
+                doStart = (int) UnityEngine.Random.RandomRange(3.0f, 10.0f);
                 recordNewTerrain("PosZSW");
             }
-            movement = new Vector3(-0.5f, 0.0f, 0.0f);
+
+            else if(previousTerrain == "PosZSW" && programCounter == oldProgramCounter + 1)
+            {
+                float zOffset = UnityEngine.Random.RandomRange(-0.05f, 0.0f) * makeNeg;
+                float xOffset = UnityEngine.Random.RandomRange(0.2f, 0.8f) * makeNeg;
+                movement = new Vector3(xOffset, 0.0f, zOffset);
+            }
+            else
+            {
+                float zOffset = UnityEngine.Random.RandomRange(0.0f, 0.05f) * makeNeg;
+                float xOffset = UnityEngine.Random.RandomRange(0.2f, 0.8f) * makeNeg;
+                movement = new Vector3(xOffset, 0.0f, zOffset);
+                oldProgramCounter = programCounter;                
+            }
         }
         private void NegZSWUpdate()
         {
+            if(doStart > 0)
+            {
+                character.Move2(new Vector3(UnityEngine.Random.RandomRange(0.05f, 0.2f) * makeNeg , 0.0f, UnityEngine.Random.RandomRange(0.5f, 1.0f) * makeNeg), false, false, rBody);
+                --doStart;
+                return;
+            }
+
             if(previousTerrain == "Park")
             {
-                character.Move2(new Vector3(0.0f, 0.0f, -0.1f), false, false, rBody);
-                recordNewTerrain("NegZSW");
+                makeNeg = movement.x/Math.Abs(movement.x);
+                if(makeNeg == 0)
+                    makeNeg = -1.0f;
+
+                doStart = (int) UnityEngine.Random.RandomRange(3.0f, 10.0f);
+                recordNewTerrain("PosZSW");
             }
-            movement = new Vector3(0.5f, 0.0f, 0.0f);
+
+            else if(previousTerrain == "PosZSW" && programCounter == oldProgramCounter + 1)
+            {
+                float zOffset = UnityEngine.Random.RandomRange(-0.05f, 0.0f) * makeNeg;
+                float xOffset = UnityEngine.Random.RandomRange(0.2f, 0.8f) * makeNeg;
+                movement = new Vector3(xOffset, 0.0f, zOffset);
+            }
+            else
+            {
+                float zOffset = UnityEngine.Random.RandomRange(0.0f, 0.05f) * makeNeg;
+                float xOffset = UnityEngine.Random.RandomRange(0.2f, 0.8f) * makeNeg;
+                movement = new Vector3(xOffset, 0.0f, zOffset);
+                oldProgramCounter = programCounter;                
+            }
         }
+
         private void SWCP2Update()
         {
             //keep moving at same speed
             if(previousTerrain == "SWCP2")
                 return;
-            float makeNegative = 1.0f;
-
+            
             if(previousTerrain == "PosXSW"|| previousTerrain == "Park")
-                makeNegative = -1.0f;
+                makeNeg = -1.0f;
 
-            float zOffset = UnityEngine.Random.RandomRange(0.1f, 0.5f) * makeNegative;
-            float xOffset = UnityEngine.Random.RandomRange(0.1f, 0.5f) * makeNegative;
+            if(previousTerrain == "Park")
+            {
+                int flipCoin = (int) UnityEngine.Random.RandomRange(0.0f, 1.0f);
+                if(flipCoin == 0)
+                    makeNeg = -1.0f;
+            }
+
+            float zOffset = UnityEngine.Random.RandomRange(0.1f, 0.5f) * makeNeg;
+            float xOffset = UnityEngine.Random.RandomRange(0.1f, 0.5f) * makeNeg;
             movement = new Vector3(xOffset, 0.0f, zOffset);
 
 
@@ -143,16 +251,19 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             if(previousTerrain == "SWCP3")
                 return;
 
-            float makeNegative = 1.0f;
-
             if(previousTerrain == "PosXSW")
-                makeNegative = -1.0f;
+                makeNeg = -1.0f;
 
-            float zOffset = UnityEngine.Random.RandomRange(0.1f, 0.5f) * makeNegative;
-            float xOffset = UnityEngine.Random.RandomRange(0.1f, 0.5f) * makeNegative * -1.0f;
+            else if(previousTerrain == "Park")
+            {
+                int flipCoin = (int) UnityEngine.Random.RandomRange(0.0f, 1.0f);
+                if(flipCoin == 0)
+                    makeNeg = -1.0f;
+            }
+
+            float zOffset = UnityEngine.Random.RandomRange(0.1f, 0.5f) * makeNeg * -1.0f;
+            float xOffset = UnityEngine.Random.RandomRange(0.1f, 0.5f) * makeNeg;
             movement = new Vector3(xOffset, 0.0f, zOffset);
-
-            movement = new Vector3(-1.0f, 0.0f, 0.0f);
         }
 
 
@@ -203,9 +314,12 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             //Debug.DrawRay(position, dir * dist, Color.green);
 
             //the ray collided with some ground terrain, info in hitinfo
-            if (Physics.Raycast(position, dir, out hitinfo, dist))
+//            if (Physics.Raycast(position, dir, out hitinfo, dist))
+            string tag = getTerrainTag(position);
+            if(tag!="")
             {
-                switch(hitinfo.collider.gameObject.tag)
+//                switch(hitinfo.collider.gameObject.tag)
+                switch(tag)
                 {
                     case "Park":
                     {
@@ -242,6 +356,16 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                     {
                         SWCP3Update();
                         recordNewTerrain("SWCP3");
+                        break;
+                    }
+                    case "flipZ":
+                    {
+                        flipZ();
+                        break;
+                    }
+                    case "flipX":
+                    {
+                        flipX();
                         break;
                     }
 /*                   

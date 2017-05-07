@@ -470,11 +470,11 @@ PlayerSettings:
   vrEditorSettings: {}
   cloudServicesEnabled:
     Build: 0
-    Collab: 1
+    Collab: 0
     ErrorHub: 0
     Hub: 0
     UNet: 1
-  cloudProjectId: c45b5434-2e68-4290-a40e-f2b2e89f84c5
-  projectName: Graphics Final Project (1)
+  cloudProjectId: 663630f1-fb71-4a5f-8397-00c9728a2494
+  projectName: Graphics Final Project
   organizationId: rsaamar
   cloudEnabled: 0

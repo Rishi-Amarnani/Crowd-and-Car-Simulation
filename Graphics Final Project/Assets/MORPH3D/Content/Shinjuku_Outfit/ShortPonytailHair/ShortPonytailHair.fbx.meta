@@ -1,0 +1,211 @@
+fileFormatVersion: 2
+guid: 47a509c1993ac2e4e8c3274942b1512e
+timeCreated: 1486156006
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: abdomenLower
+    100002: abdomenUpper
+    100004: BelowJaw
+    100006: CenterBrow
+    100008: chestLower
+    100010: chestUpper
+    100012: Chin
+    100014: head
+    100016: hip
+    100018: lBrowInner
+    100020: lBrowMid
+    100022: lBrowOuter
+    100024: lCheekLower
+    100026: lCheekUpper
+    100028: lCollar
+    100030: lEar
+    100032: lEyelidLower
+    100034: lEyelidLowerOuter
+    100036: lEyelidOuter
+    100038: lEyelidUpper
+    100040: lEyelidUpperOuter
+    100042: LipBelow
+    100044: lJawClench
+    100046: lLipCorner
+    100048: lLipNasolabialCrease
+    100050: lNasolabialLower
+    100052: lNasolabialMiddle
+    100054: lNasolabialMouthCorner
+    100056: lNasolabialUpper
+    100058: lowerFaceRig
+    100060: lowerJaw
+    100062: lPectoral
+    100064: lSquintInner
+    100066: lSquintOuter
+    100068: M3DFemale_LOD0
+    100070: neckLower
+    100072: neckUpper
+    100074: rBrowInner
+    100076: rBrowMid
+    100078: rBrowOuter
+    100080: rCheekLower
+    100082: rCheekUpper
+    100084: rCollar
+    100086: rEar
+    100088: rEyelidLowerOuter
+    100090: rEyelidOuter
+    100092: rEyelidUpper
+    100094: rEyelidUpperOuter
+    100096: rJawClench
+    100098: rLipCorner
+    100100: rLipNasolabialCrease
+    100102: rNasolabialLower
+    100104: rNasolabialMiddle
+    100106: rNasolabialMouthCorner
+    100108: rNasolabialUpper
+    100110: rSquintOuter
+    100112: ShortPonytail
+    100114: ShortPonytail.Shape_LOD0
+    100116: ShortPonytail.Shape_LOD1
+    100118: ShortPonytail.Shape_LOD2
+    100120: ShortPonytail.Shape_LOD3
+    100122: //RootNode
+    100124: upperFaceRig
+    400000: abdomenLower
+    400002: abdomenUpper
+    400004: BelowJaw
+    400006: CenterBrow
+    400008: chestLower
+    400010: chestUpper
+    400012: Chin
+    400014: head
+    400016: hip
+    400018: lBrowInner
+    400020: lBrowMid
+    400022: lBrowOuter
+    400024: lCheekLower
+    400026: lCheekUpper
+    400028: lCollar
+    400030: lEar
+    400032: lEyelidLower
+    400034: lEyelidLowerOuter
+    400036: lEyelidOuter
+    400038: lEyelidUpper
+    400040: lEyelidUpperOuter
+    400042: LipBelow
+    400044: lJawClench
+    400046: lLipCorner
+    400048: lLipNasolabialCrease
+    400050: lNasolabialLower
+    400052: lNasolabialMiddle
+    400054: lNasolabialMouthCorner
+    400056: lNasolabialUpper
+    400058: lowerFaceRig
+    400060: lowerJaw
+    400062: lPectoral
+    400064: lSquintInner
+    400066: lSquintOuter
+    400068: M3DFemale_LOD0
+    400070: neckLower
+    400072: neckUpper
+    400074: rBrowInner
+    400076: rBrowMid
+    400078: rBrowOuter
+    400080: rCheekLower
+    400082: rCheekUpper
+    400084: rCollar
+    400086: rEar
+    400088: rEyelidLowerOuter
+    400090: rEyelidOuter
+    400092: rEyelidUpper
+    400094: rEyelidUpperOuter
+    400096: rJawClench
+    400098: rLipCorner
+    400100: rLipNasolabialCrease
+    400102: rNasolabialLower
+    400104: rNasolabialMiddle
+    400106: rNasolabialMouthCorner
+    400108: rNasolabialUpper
+    400110: rSquintOuter
+    400112: ShortPonytail
+    400114: ShortPonytail.Shape_LOD0
+    400116: ShortPonytail.Shape_LOD1
+    400118: ShortPonytail.Shape_LOD2
+    400120: ShortPonytail.Shape_LOD3
+    400122: //RootNode
+    400124: upperFaceRig
+    4300000: ShortPonytail.Shape_LOD0
+    4300002: ShortPonytail.Shape_LOD1
+    4300004: ShortPonytail.Shape_LOD2
+    4300006: ShortPonytail.Shape_LOD3
+    9500000: //RootNode
+    13700000: ShortPonytail.Shape_LOD0
+    13700002: ShortPonytail.Shape_LOD1
+    13700004: ShortPonytail.Shape_LOD2
+    13700006: ShortPonytail.Shape_LOD3
+    20500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.0625
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

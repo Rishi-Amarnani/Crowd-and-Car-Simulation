@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: 419b12e45527c9e4e877ea7136f9ee5c
+timeCreated: 1486167635
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: abdomenLower
+    100002: abdomenUpper
+    100004: BelowJaw
+    100006: CenterBrow
+    100008: chestLower
+    100010: chestUpper
+    100012: head
+    100014: hip
+    100016: lBrowMid
+    100018: lBrowOuter
+    100020: lCheekLower
+    100022: lCheekUpper
+    100024: lEar
+    100026: lEyelidLowerOuter
+    100028: lEyelidOuter
+    100030: lEyelidUpperOuter
+    100032: lJawClench
+    100034: lLipCorner
+    100036: lLipNasolabialCrease
+    100038: lNasolabialLower
+    100040: lNasolabialMiddle
+    100042: lNasolabialMouthCorner
+    100044: lNasolabialUpper
+    100046: lowerFaceRig
+    100048: lowerJaw
+    100050: lSquintOuter
+    100052: M3DFemale_LOD0
+    100054: neckLower
+    100056: neckUpper
+    100058: rBrowMid
+    100060: rBrowOuter
+    100062: rCheekLower
+    100064: rCheekUpper
+    100066: rCollar
+    100068: rEar
+    100070: rJawClench
+    100072: rSquintOuter
+    100074: //RootNode
+    100076: SparkleHair
+    100078: SparkleHair.Shape_LOD0
+    100080: SparkleHair.Shape_LOD1
+    100082: SparkleHair.Shape_LOD2
+    100084: SparkleHair.Shape_LOD3
+    100086: upperFaceRig
+    400000: abdomenLower
+    400002: abdomenUpper
+    400004: BelowJaw
+    400006: CenterBrow
+    400008: chestLower
+    400010: chestUpper
+    400012: head
+    400014: hip
+    400016: lBrowMid
+    400018: lBrowOuter
+    400020: lCheekLower
+    400022: lCheekUpper
+    400024: lEar
+    400026: lEyelidLowerOuter
+    400028: lEyelidOuter
+    400030: lEyelidUpperOuter
+    400032: lJawClench
+    400034: lLipCorner
+    400036: lLipNasolabialCrease
+    400038: lNasolabialLower
+    400040: lNasolabialMiddle
+    400042: lNasolabialMouthCorner
+    400044: lNasolabialUpper
+    400046: lowerFaceRig
+    400048: lowerJaw
+    400050: lSquintOuter
+    400052: M3DFemale_LOD0
+    400054: neckLower
+    400056: neckUpper
+    400058: rBrowMid
+    400060: rBrowOuter
+    400062: rCheekLower
+    400064: rCheekUpper
+    400066: rCollar
+    400068: rEar
+    400070: rJawClench
+    400072: rSquintOuter
+    400074: //RootNode
+    400076: SparkleHair
+    400078: SparkleHair.Shape_LOD0
+    400080: SparkleHair.Shape_LOD1
+    400082: SparkleHair.Shape_LOD2
+    400084: SparkleHair.Shape_LOD3
+    400086: upperFaceRig
+    4300000: SparkleHair.Shape_LOD0
+    4300002: SparkleHair.Shape_LOD1
+    4300004: SparkleHair.Shape_LOD2
+    4300006: SparkleHair.Shape_LOD3
+    9500000: //RootNode
+    13700000: SparkleHair.Shape_LOD0
+    13700002: SparkleHair.Shape_LOD1
+    13700004: SparkleHair.Shape_LOD2
+    13700006: SparkleHair.Shape_LOD3
+    20500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.0625
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

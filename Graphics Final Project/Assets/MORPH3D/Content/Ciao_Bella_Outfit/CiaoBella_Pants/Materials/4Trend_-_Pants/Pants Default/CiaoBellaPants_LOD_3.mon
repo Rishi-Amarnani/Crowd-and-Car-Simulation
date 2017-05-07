@@ -1,0 +1,96 @@
+{
+    "origin_and_description": {
+        "mcs_id": "ba42222e-cc02-41fc-aa5e-79d88e9389ae",
+        "name": "4Trend_-_Pants/CiaoBellaPants_LOD_3",
+        "vendor_id": "2e4ddbf3-b4fd-11e6-ab9c-000f1f047949",
+        "vendor_name": "MORPH3D",
+        "collection_id": "",
+        "collection_name": "",
+        "parent_id": "",
+        "child_count": 0,
+        "gender_enum": "unknown",
+        "gender": 0,
+        "category_enum": "unknown",
+        "category": 0,
+        "tags": [],
+        "description": ""
+    },
+    "stream_and_path": {
+        "image_thumbnail": "",
+        "interactive_thumbnail": "",
+        "url": "",
+        "root_path": "",
+        "source_path": "",
+        "generated_path": "./CiaoBellaPants_LOD_3.mat"
+    },
+    "version_and_control": {
+        "mcs_version": 0.0,
+        "mcs_revision": 0.0,
+        "collection_version": 0.0,
+        "item_version": 0.0,
+        "compatibilities": []
+    },
+    "structure_and_physics": {
+        "item_structure": {
+            "lods": [],
+            "persistent": [],
+            "cap": [],
+            "assigned_materials": [],
+            "alpha_masks": [],
+            "alpha_masks_key": [],
+            "morph_resouces": []
+        },
+        "material_structure": {
+            "shader": "Morph3D/Standard - Double Sided",
+            "albedo": "./CiaoBellaPants_LOD_0/Textures/albedo.png",
+            "albedo_tint": "",
+            "metal": "",
+            "specular": "",
+            "smoothness_channel": "",
+            "smoothness_value": 0.0,
+            "normal": "./CiaoBellaPants_LOD_0/Textures/normal.png",
+            "normal_value": 0.0,
+            "detail_normal": "",
+            "detail_normal_value": 0.0,
+            "height": "./CiaoBellaPants_LOD_0/Textures/height.png",
+            "transparency": "",
+            "transparency_mode": "",
+            "transparency_value": 0.0,
+            "emission": "",
+            "emission_value": "0,0,0",
+            "emission_color": "",
+            "global_illumination": "",
+            "detail": "",
+            "tile_x": 0.0,
+            "tile_y": 0.0,
+            "offset_x": 0.0,
+            "offset_y": 0.0,
+            "tint": "192,192,192",
+            "shader_keywords": [],
+            "shader_tags": [],
+            "shader_properties": [],
+            "render_queue": -2,
+            "textures": []
+        },
+        "morph_structure": {
+            "lodMorphObjectNames": [],
+            "lodMorphLocations": []
+        }
+    },
+    "type_and_function": {
+        "primary_function_enum": "material",
+        "primary_function": 2,
+        "hierarchy_rank_enum": "unknown",
+        "hierarchy_rank": 0,
+        "artisttools_function_enum": "unknown",
+        "artisttools_function": 0,
+        "item_function_enum": "unknown",
+        "item_function": 0,
+        "material_function_enum": "unknown",
+        "material_function": 0,
+        "morph_function_enum": "unknown",
+        "morph_function": 0,
+        "animation_function_enum": "unknown",
+        "animation_function": 0
+    }
+}

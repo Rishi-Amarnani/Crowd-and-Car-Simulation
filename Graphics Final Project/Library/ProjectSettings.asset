@@ -469,9 +469,12 @@ PlayerSettings:
   XboxOnePersistentLocalStorageSize: 0
   vrEditorSettings: {}
   cloudServicesEnabled:
-    Collab: 1
+    Build: 0
+    Collab: 0
+    ErrorHub: 0
+    Hub: 0
     UNet: 1
-  cloudProjectId: 449f5b3e-51b8-485f-b4e1-ea23d21597a5
+  cloudProjectId: 663630f1-fb71-4a5f-8397-00c9728a2494
   projectName: Graphics Final Project
   organizationId: rsaamar
   cloudEnabled: 0

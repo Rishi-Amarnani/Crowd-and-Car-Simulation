@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Park
+  - PosXSW
+  - PosZSW
+  - NegZSW
+  - SWCP1
+  - SWCP2
+  - SWCP3
+  - SWCP4
+  - PosXSWGuard
   layers:
   - Default
   - TransparentFX

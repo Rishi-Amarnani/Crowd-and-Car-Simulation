@@ -34,15 +34,14 @@ Rishi Amarnani, Nick Abbs
 5. Artifact: Unity project build inside Build Folder (for Windows). We were unable to upload it to github, so please access it at https://drive.google.com/drive/folders/0Bx7DKYd717EGT093OENpcE9seFE?usp=sharing
 
 6. References:
-
-  A. Article for our project: https://graphics.cs.wisc.edu/Papers/2004/SGC04/crowd.pdf
-
-  B. Unity Assets:
-  	
-	1: Standard Assets: Third Person Controller, CarController
-  
- 	2: Street Kit Asset from Unity Store for Streets: https://www.assetstore.unity3d.com/en/#!/content/13811
-  
- 	3: Morph 3D Asset to customize look of pedestrian agents: https://www.assetstore.unity3d.com/en/#!/content/45805
+	A. Article for our project: https://graphics.cs.wisc.edu/Papers/2004/SGC04/crowd.pdf
 	
-	4: Low Poly Flower Asset from Unity Store for Garden/Flower area: https://www.assetstore.unity3d.com/en/#!/content/47083
+	B. Unity Assets:
+	
+		1: Standard Assets: Third Person Controller, CarController
+  
+ 		2: Street Kit Asset from Unity Store for Streets: https://www.assetstore.unity3d.com/en/#!/content/13811
+  
+ 		3: Morph 3D Asset to customize look of pedestrian agents: https://www.assetstore.unity3d.com/en/#!/content/45805
+	
+		4: Low Poly Flower Asset from Unity Store for Garden/Flower area: https://www.assetstore.unity3d.com/en/#!/content/47083

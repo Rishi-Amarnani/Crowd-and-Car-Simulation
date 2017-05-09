@@ -35,14 +35,14 @@ Rishi Amarnani, Nick Abbs
 
 6. References:
 
-  1. Article for our project: https://graphics.cs.wisc.edu/Papers/2004/SGC04/crowd.pdf
+  A. Article for our project: https://graphics.cs.wisc.edu/Papers/2004/SGC04/crowd.pdf
 
-  2. Unity Assets:
+  B. Unity Assets:
   	
-	A: Standard Assets: Third Person Controller, CarController
+	1: Standard Assets: Third Person Controller, CarController
   
-  	B: Street Kit Asset from Unity Store for Streets: https://www.assetstore.unity3d.com/en/#!/content/13811
+ 	2: Street Kit Asset from Unity Store for Streets: https://www.assetstore.unity3d.com/en/#!/content/13811
   
-  	C: Morph 3D Asset to customize look of pedestrian agents: https://www.assetstore.unity3d.com/en/#!/content/45805
+ 	3: Morph 3D Asset to customize look of pedestrian agents: https://www.assetstore.unity3d.com/en/#!/content/45805
 	
-	D: Low Poly Flower Asset from Unity Store for Garden/Flower area: https://www.assetstore.unity3d.com/en/#!/content/47083
+	4: Low Poly Flower Asset from Unity Store for Garden/Flower area: https://www.assetstore.unity3d.com/en/#!/content/47083

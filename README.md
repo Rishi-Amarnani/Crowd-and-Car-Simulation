@@ -17,7 +17,7 @@ Rishi Amarnani, Nick Abbs
 	The primary way that we implemented these behaviors was by using a counter specific to each agent. Every certain number of counts, the agent would have a small chance to begin a new behavior, such as wandering in a new direction or leaving an area (depending on what state an agent was in and its previous states). This allowed us to have our agents take a specified amount of time before starting a new behavior, letting them gaze at a pool before continuing to venture around the park. 
 	The main reason we specified the pool as an area was so that we could keep our agents from randomly walking inside of it.
   	
-	3: The car travels on the street, in a square around the park. We made a simple script to define its behavior. Each street can only be occupied by either the pedestrian agents, or the car agent. If a street is currently occupied by at least 1 pedestrian agent, the car must wait. If the car currently occupies a street, then the pedestrian agents must wait. Of course, multiple agents can be on the same street, when a car is not occupying it. 
+	3: The car travels on the street, in a square around the park. We made a simple script to define its behavior. Each street can only be occupied by either the pedestrian agents, or the car agent. If a street is currently occupied by at least 1 pedestrian agent, the car must wait. If the car currently occupies a street, then the pedestrian agents must wait. Of course, multiple agents can be on the same street, when a car is not occupying it. Once the pedestrians cross the street, the stop to gaze at the beautiful flowers on the other side, then they return to the main park area.
 
 
 4.	Artifact: (Unity project build)
@@ -31,3 +31,5 @@ Rishi Amarnani, Nick Abbs
   	2: Street Kit Asset from Unity Store for Streets: https://www.assetstore.unity3d.com/en/#!/content/13811
   
   	3: Morph 3D Asset to customize look of pedestrian agents: https://www.assetstore.unity3d.com/en/#!/content/45805
+	
+	4: Low Poly Flower Asset from Unity Store for Garden/Flower area: https://www.assetstore.unity3d.com/en/#!/content/47083

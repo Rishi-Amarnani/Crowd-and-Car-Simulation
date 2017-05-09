@@ -31,7 +31,7 @@ Rishi Amarnani, Nick Abbs
 	
 	E. The NeighborController script was just made to attach the terrains in our scene together. Nothing special here.
 
-5. Artifact: Unity project build inside Build Folder (for Windows).
+5. Artifact: Unity project build inside Build Folder (for Windows). We were unable to upload it to github, so please access it at https://drive.google.com/drive/folders/0Bx7DKYd717EGT093OENpcE9seFE?usp=sharing
 
 6. References:
 

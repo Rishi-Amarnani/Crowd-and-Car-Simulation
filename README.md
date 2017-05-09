@@ -2,7 +2,7 @@ Crowd Simulation
 
 Rishi Amarnani, Nick Abbs
 
-1. How to use: You can run the artifact but the camera is fixed.So to be able to zoom and rotate the camera and look closely at what is going on, it would be better to actually open up the project in Unity 3D. You can then click scene, right click scene and click maximize, and use the mouse to control the camera.
+1. 	How to use: You can run the artifact but the camera is fixed. So to be able to zoom and rotate the camera and look closely at what is going on, it would be better to actually open up the project in Unity 3D. You can then click scene, right click scene and click maximize, and use the mouse to control the camera. If using the artifact, there is no input required. Simply watch the scene to see how the car and the agents behave.
 
 2.	Background: Our project was designed to simulate crowd behavior using Unity, with simple guidelines governing the behavior of the agents to produce more complicated looking behavior as the number of agents increases. The source article we used, cited below in the references section, talked about how to use probabilistic transitions between “states” to simulate behaviors that look realistic on a macro level in the same way that a finite automaton performs calculations. This was a helpful abstraction to provide the basis for the functionality of our project.
 
@@ -30,7 +30,7 @@ Rishi Amarnani, Nick Abbs
 	
 	E. The NeighborController script was just made to attach the terrains in our scene together. Nothing special here.
 
-5. Artifact: Unity project build (for windows)
+5. Artifact: Unity project build inside Build Folder (for Windows).
 
 6. References:
 

@@ -24,7 +24,8 @@ Rishi Amarnani, Nick Abbs
 5.	Article: https://graphics.cs.wisc.edu/Papers/2004/SGC04/crowd.pdf for our project.
 
 6.  Unity Assets:
-  	1: Standard Assets: Third Person Controller, CarController
+  	
+	1: Standard Assets: Third Person Controller, CarController
   
   	2: Street Kit Asset from Unity Store for Streets: https://www.assetstore.unity3d.com/en/#!/content/13811
   

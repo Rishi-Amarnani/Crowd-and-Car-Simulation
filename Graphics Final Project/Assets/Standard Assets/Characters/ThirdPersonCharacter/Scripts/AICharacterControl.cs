@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 using System.Collections.Generic;
-
+using UnityStandardAssets.Vehicles.Car;
 
 namespace UnityStandardAssets.Characters.ThirdPerson
 {
@@ -25,7 +25,6 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private int type; 
 
         private Vector3 destination;
-        private List<Vector3> parkDestinations;
 
         private int waitTime;
         private string previousTerrain;
@@ -34,12 +33,22 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
         private float sidewalkSpeed;
         private bool increasingSpeed;
+        private bool crossingRoad = false;
+        private bool crossingBack = false;
+        private bool alreadyDecided = false;
 
-        private bool changedTypes;
+        private GameObject carParent;
+        private CarController car;
+
 
         private void Start()
         {
             character = GetComponent<ThirdPersonCharacter>();
+
+            carParent = GameObject.Find("Car");
+
+            car = carParent.GetComponent<CarController>();
+
 
             speedUpdateFrequency = 200;
             parkUpdateFrequency = 50;
@@ -52,11 +61,10 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             makeNeg = 1.0f;
             finishedStaring = false;
             goingToPark = false;
+            crossingRoad = false;
+
             sidewalkSpeed = UnityEngine.Random.RandomRange(0.1f, 0.8f);
             increasingSpeed = (UnityEngine.Random.RandomRange(0.0f, 1.0f) < 0.5f);
-            changedTypes = false;
-
-            parkDestinations = getParkDestinations();
             
             float typeNum = UnityEngine.Random.Range(0.0f, 1.0f);
             if (typeNum < 0.5f) {
@@ -65,14 +73,6 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                 type = 1;
                 destination = randomParkDestination();
             }
-        }
-
-        private List<Vector3> getParkDestinations() {
-            List<Vector3> PDs = new List<Vector3>();
-            PDs.Add(new Vector3(-200, 0, 90));//pond
-            PDs.Add(new Vector3(-90, 0, 170));//hill
-            PDs.Add(new Vector3(-100, 0, 320));//field
-            return PDs;
         }
 
         private void parkUpdate()
@@ -92,55 +92,18 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                         float f3 = UnityEngine.Random.Range(-0.5f, 0.5f);
                         movement = new Vector3(f1, f2, f3);
                     }
-                    ////Debug.LogError("Type 0");
                 }
             } 
             else {
                 if ((character.transform.position - destination).magnitude < 5) {
-                        if(changedTypes)
-                        {    
-                            changedTypes = false;
-                            type = 0;
-                            parkUpdate();
-                            return;
-                        }
                         destination = randomParkDestination();
                 } else {
                         movement = destination - character.transform.position;
                         movement.Normalize();
                         movement = movement/3;
                 }
-                ////Debug.LogError("character pos: " + character.transform.position);
-                ////Debug.LogError("destination pos: " + destination);
             } 
-/*            else if (type == 2) { //will enter a preset destination here
-                if (waitTime == 0) {
-                    if ((character.transform.position - destination).magnitude > 50) {
-                        movement = destination - character.transform.position;
-                        movement.Normalize();
-                        movement = movement/3;
-                    } else {
-                        movement = Vector3.zero;
-                        waitTime = UnityEngine.Random.Range(10, 100);
-                    }
-                } else {
-                    waitTime--;
-                    if (waitTime == 0) {
-                        int newDest = (int) UnityEngine.Random.Range(0.0f,3.0f);
-                        destination = parkDestinations[newDest];
-                    }
-                }   /*
-                else if (waitTime == 0){
-                    movement = Vector3.zero;
-                    waitTime = UnityEngine.Random.Range(10, 100);
-                } else if (waitTime == 1) {
-                    movement = Vector3.zero;
-                    destination = parkDestinations[UnityEngine.Random.Range(0, parkDestinations.Count()-1)];
-                }*/
-/*            } else if (type == 3) {
-                
-            }
-*/      }
+        }
 
         private Vector3 randomParkDestination() {
             float xDest = UnityEngine.Random.Range(-330.0f, 0.0f);
@@ -231,28 +194,6 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             goingToPark = true;
             return true;
         }
-
-
-
-/*
-        private bool moveToPark()
-        {
-            if (UnityEngine.Random.RandomRange(0.0f, 1.0f) < .5) {
-                destination = randomParkDestination();
-                goingToPark = true;
-
-                if(type == 0)
-                    changedTypes = true;
-
-                type = 1;
-                
-                parkUpdate();
-                return true;
-            }
-            goingToPark = false;
-            return false;
-        }
-*/      
 
         //a function to gradually increase or decrease the speed
         private void changeSidewalkSpeed()
@@ -415,8 +356,28 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
         private void NegZSWUpdate()
         {
+            if(crossingBack)
+            {
+                car.decrementCountNegZ();
+                crossingRoad = false;
+                crossingBack = false;
+                alreadyDecided = false;   
+            }
+            else if(crossingRoad) return;
+
+
             if(goingToPark) return;
-         
+
+            if(UnityEngine.Random.RandomRange(0.0f, 1.0f) < 0.01f)
+            {
+                crossingRoad = true;
+                crossingBack = false;
+                alreadyDecided = false;
+
+                movement = new Vector3(0.0f, 0.0f, -0.5f);
+                return;
+            }
+
             if(previousTerrain == "NegZSW")
             {
                 if(doStart > 1)
@@ -725,7 +686,6 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
         private void HandleRiver(bool makeXPos, bool makeZPos)
         {
-            //Debug.LogError("In HandleRiver!!");
             if(finishedStaring)
                 return;
 
@@ -773,6 +733,28 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             destination = randomParkDestination();
         }
 
+        private void NegZOuterUpdate(float x, float z)
+        {
+            if(!crossingBack)
+            {
+                if(previousTerrain == "NegZSW")
+                {
+                    doStart = (int)UnityEngine.Random.RandomRange(100.0f, 200.0f);
+                    StopAndStare();
+                    car.decrementCountNegZ();
+                }
+                if(doStart > 1)
+                    --doStart;
+                if(doStart == 1)
+                {
+                    movement = new Vector3(0.0f, 0.0f, sidewalkSpeed);
+                    --doStart;
+                    crossingBack = true;
+                }                
+            }                    
+            recordNewTerrain("NegZOuterSW");
+        }
+
         private void Update()
         {
             if(counter % speedUpdateFrequency == 0)
@@ -781,33 +763,55 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             position = character.transform.position;
             float x = position.x;
             float z = position.z;
-
-            if(x < -350){
+            
+            //NegZRoad
+            if(x >= -350 && x <= 27 && z >= -66 && z <= -15)
+            {
+                if(!alreadyDecided)
+                {
+                    if(car.location == 2) 
+                    {
+                        StopAndStare();
+                    }
+                    else
+                    {
+                        car.incrementCountNegZ();
+                        
+                        movement = new Vector3(0.0f, 0.0f, 0.5f);
+                        if(previousTerrain == "NegZSW")
+                            movement = new Vector3(0.0f, 0.0f, -0.5f);
+                        
+                        alreadyDecided = true;
+                    }
+                }
+            }
+            //NegZ outer SW
+            else if(x >= -350 && x <= 27 && z < -66)
+            {
+                alreadyDecided = false;
+                NegZOuterUpdate(x,z);
+            }
+            else if(x < -350 && !crossingRoad && !crossingBack){
                 movePosX();
-                
             }
-            else if(x > 25){
+            else if(x > 25 && !crossingRoad && !crossingBack){
                 moveNegX();
-                
             }
-            else if(z < -15){
+            else if(z < -15 && !crossingRoad && !crossingBack){
                 movePosZ();
             }
-            else if(z > 362){
+            else if(z > 362 && !crossingRoad && !crossingBack){
                 moveNegZ();
-                
             }
             else if(z <= -1)
             {
                 if(x <= -336){
                     SWCP1Update();
                     recordNewTerrain("SWCP1");
-                    
                 }
                 else if(x >= 15){
                     SWCP2Update();
                     recordNewTerrain("SWCP2");
-                    
                 }
                 else
                 {
@@ -824,8 +828,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                 }
                 else if(x >= 15){
                     SWCP3Update();
-                    recordNewTerrain("SWCP3");
-                    
+                    recordNewTerrain("SWCP3");                    
                 }
                 else
                 {
@@ -834,18 +837,26 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                 }
                 
             }
-            else if(x <= -336){
+
+            else if(x <= -336 && z < 349 && z > 1){
+                //crossingRoad = false;
                 NegXSWUpdate();
                 recordNewTerrain("NegXSW");
                 
             }
-            else if(x >= 15){
+            else if(x >= 15 && z < 349 && z > 1){
+                //crossingRoad = false;
                 PosXSWUpdate();
                 recordNewTerrain("PosXSW");
                 
             }
-            else{
 
+            //PosZRoad
+            
+            else{
+                crossingRoad = false;
+                crossingBack = false;
+                alreadyDecided = false;
                 //Calls moveRiver(), and then runs parkUpdate() if moveRiver failed
                 if(!moveRiver(x,z))
                 {

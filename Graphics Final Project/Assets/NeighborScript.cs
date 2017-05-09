@@ -15,12 +15,10 @@ public class NeighborScript : MonoBehaviour {
     private Terrain SWCP2;
     private Terrain SWCP3;
 
-//    public ArrayList<GameObject> TerrainPositions;
     private Terrain SWCP4;
 
     
     void Start () {
-        //TerrainPositions = new ArrayList<GameObject>();
 
         park = (Terrain) GetComponent("Park");
         PosXSW = (Terrain) GetComponent("PosXSW");
@@ -28,28 +26,11 @@ public class NeighborScript : MonoBehaviour {
         PosZSW = (Terrain) GetComponent("PosZSW");
         NegZSW = (Terrain) GetComponent("NegZSW");
 
-/*
-        TerrainData parkdata = (TerrainData)Resources.Load("Terrain/Park");
-        GameObject ParkPosition = Terrain.CreateTerrainGameObject(parkdata);
-        TerrainData posxswdata = (TerrainData)Resources.Load("Terrain/PosXSW");
-        GameObject PosXSWPosition = Terrain.CreateTerrainGameObject(posxswdata);
-        TerrainData poszswdata = (TerrainData)Resources.Load("Terrain/PosZSW");
-        GameObject PosZSWPosition = Terrain.CreateTerrainGameObject(poszswdata);
-        TerrainData negzsw = (TerrainData)Resources.Load("Terrain/NegZSW");
-        GameObject NegZSWPosition = Terrain.CreateTerrainGameObject(negzsw);
-
-        TerrainPositions.Add(ParkPosition);
-        TerrainPositions.Add(PosXSWPosition);
-        TerrainPositions.Add(PosZSWPosition);
-        TerrainPositions.Add(NegZSWPosition);
-*/
 
         SWCP1 = (Terrain) GetComponent("SWCP1");
         SWCP2 = (Terrain) GetComponent("SWCP2");
         SWCP3 = (Terrain) GetComponent("SWCP3");
         SWCP4 = (Terrain) GetComponent("SWCP4");
-
-        //new terrain() is put in place for null, because null causes nullException to be thrown
 
         //left, top, right, bottom (that's the order)
         park.SetNeighbors(NegXSW, PosZSW, PosXSW, NegZSW);
@@ -64,8 +45,4 @@ public class NeighborScript : MonoBehaviour {
         SWCP4.SetNeighbors(new Terrain(), new Terrain(), PosZSW, NegXSW);
     }
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }

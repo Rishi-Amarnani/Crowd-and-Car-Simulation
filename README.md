@@ -1,4 +1,5 @@
 Crowd Simulation
+
 Rishi Amarnani, Nick Abbs
 
 1. How to use: You can run the artifact but the camera is fixed.So to be able to zoom and rotate the camera and look closely at what is going on, it would be better to actually open up the project in Unity 3D. You can then click scene, right click scene and click maximize, and use the mouse to control the camera.
